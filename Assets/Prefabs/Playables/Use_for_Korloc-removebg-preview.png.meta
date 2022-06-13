@@ -1,0 +1,1872 @@
+fileFormatVersion: 2
+guid: f54a1528e8fee4d6a9de2f393b8a2bc6
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 314
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220f7832aeb024a7ba9d421feeabe21e
+      internalID: 1199838481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 314
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7162194f87738429ca3e6bda05bcba61
+      internalID: 1347749135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 313
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a55b2921d984e45b2dcfc97b9bd08f
+      internalID: -1861186168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 281
+        width: 144
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6745b669cbb4b4aa1fd899a1d7e2c1
+      internalID: -634576081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 290
+        width: 42
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72197f88bc86a4f26930fc2ff0e6523a
+      internalID: 531888673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 289
+        width: 84
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9001e4cdc0364b6689d1bb01c12c96d
+      internalID: 196365044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 290
+        width: 42
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d0e1188b2524f9cba45fafc7012f9f
+      internalID: -1089371412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 289
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8d12f7e005e487bbf39c14312269d8
+      internalID: -70783802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 289
+        width: 43
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a114d9da9ed34846b7f3de5d4eb47c9
+      internalID: -1321199175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 290
+        width: 44
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9ab7f75e99c48d1b2a7a82a4007ae1
+      internalID: -2088153393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 260
+        width: 42
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b07f59224c5eb4c1bbbcbee121a463fd
+      internalID: -2035450378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 260
+        width: 41
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a48cc00de5304eecb0d790251bb5444
+      internalID: -1423472916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 260
+        width: 43
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f33a7292d60f4e958fd27c3229392c8
+      internalID: -1175795166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 260
+        width: 43
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55415a81eda3041f0ad88443871d236f
+      internalID: -102913921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 258
+        width: 51
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89fb471c4441447398d516090881c5af
+      internalID: 1017324673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 259
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c19ba8347d464febaf7e9455f80db64
+      internalID: -1320457552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 259
+        width: 42
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728dbcbdd852d4d659dbabc4d42b5a91
+      internalID: -229862110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 222
+        width: 47
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e32f63278d42249ea9a114cb614d8aa3
+      internalID: -180521638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 223
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5744d2f7cf4ff4967bd74d9e5c09a769
+      internalID: 126276675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 223
+        width: 60
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201c10610b796412d9d2ed3958575e87
+      internalID: -1178971850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 223
+        width: 57
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a539cce3348f4b21a25f81480c7a9a2
+      internalID: -1445529731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 223
+        width: 39
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7792169e9774a8ebd634ae92b82929
+      internalID: 266585075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 223
+        width: 45
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffd310441b7a41e386a8d890d986ca3
+      internalID: 415346412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 223
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda05b83c07a54717b2967d3db498bc7
+      internalID: 942791411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 223
+        width: 44
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b2d166e4ec94023bff6d1cd3281ded
+      internalID: 547937245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 223
+        width: 42
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a245f02491b460daf17b969a4c747f
+      internalID: 1319658980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 180
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3be0b720da3849dcaa1b49abc1c1175
+      internalID: 1996274251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 179
+        width: 42
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53042f3bb70e140478e9c79dc9e89d7d
+      internalID: -1983829091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 180
+        width: 45
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59af0431948264f768d4b5d54843cd41
+      internalID: 1882391906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 182
+        width: 45
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee008cc956a348c99bfc45a9a50c10c
+      internalID: 1710463238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 173
+        width: 72
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735f691b423a54060828e04d550c5fba
+      internalID: -1222197358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 76
+        width: 48
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758977fb724414f459aac42b418487dd
+      internalID: -1109826655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 172
+        width: 74
+        height: 49
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6880a24629e45339fed2f2e458b398
+      internalID: -921933379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 178
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a083191cc29d4d48b3617b11e329389
+      internalID: -428374379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 172
+        width: 73
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9aba1506c92044e088926f94fc6f1e5
+      internalID: 364368564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 77
+        width: 47
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0dc3335e15b449bf9e24fd666a253f4
+      internalID: -234105139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 171
+        width: 65
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2df19abb1164541ad4621697fa11f5
+      internalID: 670047253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 77
+        width: 47
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcf9cce77352a44e2a88bb33993521b4
+      internalID: 2017721613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 172
+        width: 67
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0ceed820f1244bb9b010bd4aec3712
+      internalID: 709048189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 259
+        width: 43
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a2db49ae6c946d498ea97db91d64c0
+      internalID: 346150244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 314
+        width: 45
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f073cee324b143aba5c37b37803b1a1
+      internalID: -353148221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 179
+        width: 43
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1d14e06ef14d43baa5c4d0e2df63570
+      internalID: -111039607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 180
+        width: 43
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4d1370b3335741c4bbc6e5657564b3c
+      internalID: -1898473660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 259
+        width: 43
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda6a2d65eb284c228595769a97722cf
+      internalID: -357486437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 180
+        width: 42
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2cb669b2eac41eabe647e6d4c3aa43
+      internalID: 1576143513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 130
+        width: 41
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529a779dbc71c4822a0253cc88730be7
+      internalID: -365884536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 130
+        width: 29
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4656d9c446fa145c1b59b59788c3ad20
+      internalID: 1343603205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 129
+        width: 29
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f2c67f2ae8f243449a1d8694552b56b
+      internalID: 951710874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 130
+        width: 44
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc68f8d48ed9648198a81ce88102fe15
+      internalID: 2041131602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 130
+        width: 43
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9038215353f7d477a8a6dc3ba45fcbf3
+      internalID: -698308216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 130
+        width: 38
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02b055f7c9b954135995f73f9bbb32b0
+      internalID: 1138652668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 130
+        width: 38
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98fa592ace7074714bb54de625ee5b40
+      internalID: -1108988433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 129
+        width: 38
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bac509b22b3444dcaf381e5ec7180ce
+      internalID: 1750605000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 129
+        width: 37
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19bac905fde4150bcc7364b36243ad
+      internalID: 310996111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 129
+        width: 38
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec3b9d9a5d4d48f5ba2d082d9b230de
+      internalID: -1278243256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 86
+        width: 31
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c0bc8f2c0ae4d9c9ed65af43df1f76
+      internalID: 605377511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 93
+        width: 37
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad29cca99fdf48228ee9d3887a333d1
+      internalID: 1035669856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 93
+        width: 44
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f176be93e550647c99b5aa42c6aac301
+      internalID: 349763676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 98
+        width: 45
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2381984e6816e4a83b3727445ba22d1c
+      internalID: -907562154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 80
+        width: 23
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57727477023748fab9e5e9479bd5e5b
+      internalID: -1262347108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 80
+        width: 24
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f52fe48d18546138865cf04055f685
+      internalID: 1757675043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 71
+        width: 38
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70dd294bdd95a4169a93c6c4b37a96f1
+      internalID: -2078128384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 80
+        width: 46
+        height: 25
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9835d307435c4b7bbd10da19110b783
+      internalID: 1223174587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_63
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 80
+        width: 43
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9bd16abdbad43f7bdaa0250cc64cd9
+      internalID: 783666685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_64
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 40
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4535ca57267ec4d91aeb65224324e0dd
+      internalID: -1127619913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_65
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 75
+        width: 49
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea01a40491614397b8f7f56c60b9b85
+      internalID: 1990599848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_66
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 47
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41c3c03edc38e45f1ae04f81313b0ae0
+      internalID: 910569239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_67
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 24
+        width: 46
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919cc7b3133ab449e9091bea1c67e63d
+      internalID: 272690035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_68
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 24
+        width: 48
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf9a1e2983654763b1fc0c6d5733a13
+      internalID: 1353950908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_69
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 24
+        width: 41
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3002f6d7374a947dabae0d91b4dcec56
+      internalID: -1596772307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_70
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 25
+        width: 38
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dcb0070bc3a44fc0bc0efd479e8b6e5
+      internalID: 664820782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_71
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 24
+        width: 45
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53e13e8ecf9fa46f7a054444e0889b77
+      internalID: 1800987384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_72
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 24
+        width: 44
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b6cdedcaa9241cd8c38d609c710e14
+      internalID: -1588639683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_73
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 24
+        width: 43
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80947418385af400d9be07031bd51d6b
+      internalID: -787563525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_74
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 47
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11604e0ff089f444387444afe08d666f
+      internalID: 1889277467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_75
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 46
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a34ca34051a4e85bc8f99da60bb239
+      internalID: 946911711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_76
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 1
+        width: 47
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e7ed52871640c187d549b34cf8a71
+      internalID: 1274105724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_77
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1
+        width: 47
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbf86535466e9481ea9fd15d2786ed7d
+      internalID: -568580913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Korloc-removebg-preview_78
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 1
+        width: 47
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762ad592a14a44a32a85d1f74cdbc538
+      internalID: -828005241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Use_for_Korloc-removebg-preview_55: 605377511
+      Use_for_Korloc-removebg-preview_42: -1898473660
+      Use_for_Korloc-removebg-preview_12: -1175795166
+      Use_for_Korloc-removebg-preview_22: 415346412
+      Use_for_Korloc-removebg-preview_46: 1343603205
+      Use_for_Korloc-removebg-preview_28: 1882391906
+      Use_for_Korloc-removebg-preview_64: -1127619913
+      Use_for_Korloc-removebg-preview_40: -353148221
+      Use_for_Korloc-removebg-preview_26: 1996274251
+      Use_for_Korloc-removebg-preview_74: 1889277467
+      Use_for_Korloc-removebg-preview_73: -787563525
+      Use_for_Korloc-removebg-preview_7: -70783802
+      Use_for_Korloc-removebg-preview_23: 942791411
+      Use_for_Korloc-removebg-preview_31: -1109826655
+      Use_for_Korloc-removebg-preview_11: -1423472916
+      Use_for_Korloc-removebg-preview_60: 1757675043
+      Use_for_Korloc-removebg-preview_52: 1750605000
+      Use_for_Korloc-removebg-preview_59: -1262347108
+      Use_for_Korloc-removebg-preview_67: 272690035
+      Use_for_Korloc-removebg-preview_27: -1983829091
+      Use_for_Korloc-removebg-preview_51: -1108988433
+      Use_for_Korloc-removebg-preview_0: 1199838481
+      Use_for_Korloc-removebg-preview_35: -234105139
+      Use_for_Korloc-removebg-preview_57: 349763676
+      Use_for_Korloc-removebg-preview_70: 664820782
+      Use_for_Korloc-removebg-preview_48: 2041131602
+      Use_for_Korloc-removebg-preview_65: 1990599848
+      Use_for_Korloc-removebg-preview_9: -2088153393
+      Use_for_Korloc-removebg-preview_2: -1861186168
+      Use_for_Korloc-removebg-preview_19: -1178971850
+      Use_for_Korloc-removebg-preview_45: -365884536
+      Use_for_Korloc-removebg-preview_5: 196365044
+      Use_for_Korloc-removebg-preview_33: -428374379
+      Use_for_Korloc-removebg-preview_38: 709048189
+      Use_for_Korloc-removebg-preview_68: 1353950908
+      Use_for_Korloc-removebg-preview_72: -1588639683
+      Use_for_Korloc-removebg-preview_3: -634576081
+      Use_for_Korloc-removebg-preview_20: -1445529731
+      Use_for_Korloc-removebg-preview_25: 1319658980
+      Use_for_Korloc-removebg-preview_15: -1320457552
+      Use_for_Korloc-removebg-preview_47: 951710874
+      Use_for_Korloc-removebg-preview_56: 1035669856
+      Use_for_Korloc-removebg-preview_16: -229862110
+      Use_for_Korloc-removebg-preview_66: 910569239
+      Use_for_Korloc-removebg-preview_4: 531888673
+      Use_for_Korloc-removebg-preview_78: -828005241
+      Use_for_Korloc-removebg-preview_1: 1347749135
+      Use_for_Korloc-removebg-preview_13: -102913921
+      Use_for_Korloc-removebg-preview_18: 126276675
+      Use_for_Korloc-removebg-preview_6: -1089371412
+      Use_for_Korloc-removebg-preview_75: 946911711
+      Use_for_Korloc-removebg-preview_77: -568580913
+      Use_for_Korloc-removebg-preview_32: -921933379
+      Use_for_Korloc-removebg-preview_58: -907562154
+      Use_for_Korloc-removebg-preview_36: 670047253
+      Use_for_Korloc-removebg-preview_50: 1138652668
+      Use_for_Korloc-removebg-preview_30: -1222197358
+      Use_for_Korloc-removebg-preview_39: 346150244
+      Use_for_Korloc-removebg-preview_10: -2035450378
+      Use_for_Korloc-removebg-preview_17: -180521638
+      Use_for_Korloc-removebg-preview_37: 2017721613
+      Use_for_Korloc-removebg-preview_41: -111039607
+      Use_for_Korloc-removebg-preview_49: -698308216
+      Use_for_Korloc-removebg-preview_63: 783666685
+      Use_for_Korloc-removebg-preview_69: -1596772307
+      Use_for_Korloc-removebg-preview_21: 266585075
+      Use_for_Korloc-removebg-preview_76: 1274105724
+      Use_for_Korloc-removebg-preview_54: -1278243256
+      Use_for_Korloc-removebg-preview_62: 1223174587
+      Use_for_Korloc-removebg-preview_43: -357486437
+      Use_for_Korloc-removebg-preview_34: 364368564
+      Use_for_Korloc-removebg-preview_61: -2078128384
+      Use_for_Korloc-removebg-preview_44: 1576143513
+      Use_for_Korloc-removebg-preview_53: 310996111
+      Use_for_Korloc-removebg-preview_29: 1710463238
+      Use_for_Korloc-removebg-preview_24: 547937245
+      Use_for_Korloc-removebg-preview_71: 1800987384
+      Use_for_Korloc-removebg-preview_14: 1017324673
+      Use_for_Korloc-removebg-preview_8: -1321199175
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

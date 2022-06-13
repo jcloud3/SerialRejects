@@ -1,0 +1,750 @@
+fileFormatVersion: 2
+guid: 754b83642e46441b08df868b49259e50
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 211
+        width: 35
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb24792f0608b4b63a2d08ae8b37f7d9
+      internalID: -1037376277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 211
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa240b8edcca1483ba02f7caf824ab6c
+      internalID: 323736918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 211
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb192d376cae4977892fb84a8f94a3e
+      internalID: -1846344895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 211
+        width: 35
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9eee7c7f2ef4529865f933553e971e
+      internalID: 1760248007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 211
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8918fbe615cba4f158f98f8e639d7dcf
+      internalID: -408074842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 161
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fadcbbc4856e46c795c2869faeebfa0
+      internalID: -1892393379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 162
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5babdaf3f2355459e939f72277445fb5
+      internalID: -2125724465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 162
+        width: 34
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d786d1270a73b4e7e9baf549f62c9876
+      internalID: 828366608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 163
+        width: 33
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5980bc0d95ff45308824063916d2c67
+      internalID: -509394723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 161
+        width: 33
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a54936e44a1f43c49f87417c8916044
+      internalID: -731894919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 162
+        width: 34
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 501116e4148e24124aa2f9416617975b
+      internalID: -523358542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 114
+        width: 42
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c284fb9c0a3c4ac2add9850922be2c3
+      internalID: -687728425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 110
+        width: 43
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bc3f7b9220f84aabb15c4925d0fa2c0
+      internalID: -201075881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 111
+        width: 45
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f491ea0e88f349369c2bbca9d267d95
+      internalID: -794734216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 115
+        width: 44
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e174203677d4c698d0a38fa3bc4b7d
+      internalID: 1451679271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 113
+        width: 40
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5778e90e017a41e79198fbc53924998
+      internalID: -131096708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 111
+        width: 38
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d2a2e622bfa4c0c8d8c617b9263696
+      internalID: 1636914430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 110
+        width: 44
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da084b2d814bb4cfa9d1c11d44bfa73c
+      internalID: 623135135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 116
+        width: 43
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a670107eb5d4ec3a7877390cd3c775
+      internalID: -703825831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 64
+        width: 40
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3c819291fe3e42ce8aebb7d14e7c628
+      internalID: -1585401248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 64
+        width: 35
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d706e35bef5904ba6989d21bc6450207
+      internalID: -103427099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 63
+        width: 37
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 462c64948767740c8a4ff48435d2450a
+      internalID: -1099720809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 64
+        width: 33
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25d52a2a00c214712ad2dfcdce8e35ff
+      internalID: 881747564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 62
+        width: 38
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9163761dd4b7f4d2aabbdd558f15c5ab
+      internalID: 843185570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 84
+        width: 29
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a32662f90827434bb66c25deb533793
+      internalID: 328214301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 190
+        height: 51
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f6e5a10ad714b1181966fc84fc4626
+      internalID: -1014238065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 31
+        width: 28
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdbd04e68be544fa09a39395c27e4193
+      internalID: 1522982696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Use_for_Elf_Ermey-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 0
+        width: 55
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cf947f89d6d4f6a9ba3823c4a0e1e8
+      internalID: 1448972314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Use_for_Elf_Ermey-removebg-preview_9: -731894919
+      Use_for_Elf_Ermey-removebg-preview_1: 323736918
+      Use_for_Elf_Ermey-removebg-preview_5: -1892393379
+      Use_for_Elf_Ermey-removebg-preview_13: -794734216
+      Use_for_Elf_Ermey-removebg-preview_0: -1037376277
+      Use_for_Elf_Ermey-removebg-preview_4: -408074842
+      Use_for_Elf_Ermey-removebg-preview_16: 1636914430
+      Use_for_Elf_Ermey-removebg-preview_20: -103427099
+      Use_for_Elf_Ermey-removebg-preview_11: -687728425
+      Use_for_Elf_Ermey-removebg-preview_7: 828366608
+      Use_for_Elf_Ermey-removebg-preview_23: 843185570
+      Use_for_Elf_Ermey-removebg-preview_24: 328214301
+      Use_for_Elf_Ermey-removebg-preview_22: 881747564
+      Use_for_Elf_Ermey-removebg-preview_17: 623135135
+      Use_for_Elf_Ermey-removebg-preview_14: 1451679271
+      Use_for_Elf_Ermey-removebg-preview_26: 1522982696
+      Use_for_Elf_Ermey-removebg-preview_21: -1099720809
+      Use_for_Elf_Ermey-removebg-preview_6: -2125724465
+      Use_for_Elf_Ermey-removebg-preview_3: 1760248007
+      Use_for_Elf_Ermey-removebg-preview_25: -1014238065
+      Use_for_Elf_Ermey-removebg-preview_10: -523358542
+      Use_for_Elf_Ermey-removebg-preview_2: -1846344895
+      Use_for_Elf_Ermey-removebg-preview_12: -201075881
+      Use_for_Elf_Ermey-removebg-preview_18: -703825831
+      Use_for_Elf_Ermey-removebg-preview_15: -131096708
+      Use_for_Elf_Ermey-removebg-preview_8: -509394723
+      Use_for_Elf_Ermey-removebg-preview_19: -1585401248
+      Use_for_Elf_Ermey-removebg-preview_27: 1448972314
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
