@@ -11,7 +11,7 @@ TagManager:
   - 
   - Water
   - UI
-  - 
+  - Base
   - 
   - 
   - 
@@ -43,4 +43,10 @@ TagManager:
     locked: 0
   - name: BG
     uniqueID: 4242427447
+    locked: 0
+  - name: Level
+    uniqueID: 1027791395
+    locked: 0
+  - name: Character
+    uniqueID: 3090084777
     locked: 0

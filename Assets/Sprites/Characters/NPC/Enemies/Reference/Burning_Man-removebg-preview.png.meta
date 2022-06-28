@@ -1,0 +1,1520 @@
+fileFormatVersion: 2
+guid: e1fd8993cf9664b2ca8d0a9704dce665
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 267
+        width: 48
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d60251614e64d6db49281630f376de
+      internalID: -1429935799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 324
+        width: 10
+        height: 13
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a99aa66bb5d4f4a0d96ccb0844c72cee
+      internalID: -848199796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 256
+        width: 53
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44b1293d1e144b39f58ef4031f4ddd
+      internalID: -487358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 255
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a19b9c6894bc490287f4711d603baa2
+      internalID: 926273579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 253
+        width: 8
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b337478e213434c9a73a9ec32cadd7
+      internalID: -691127051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 256
+        width: 64
+        height: 81
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ed99a21960ee48ef8ecbd98fe645086
+      internalID: 392440113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 327
+        width: 16
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85575a72c0b6c49a8b4aa094c59f43f3
+      internalID: 44468976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 255
+        width: 50
+        height: 79
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99ca90ffd23fa4df995b2a8b962e1fe8
+      internalID: 977072244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 258
+        width: 17
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dd5c34a6b224281a3f2dab5438b5f0
+      internalID: 840101273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 253
+        width: 201
+        height: 91
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c653b36aadf645de9996c21f9e0529b
+      internalID: 656429666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 292
+        width: 24
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9706cb6c317cb430ab1fe237ac74eca1
+      internalID: 518475902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 265
+        width: 49
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d192df199fb47daba9cfba075976f1
+      internalID: -1853017182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 311
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d7051fae3314096b7e49b837493267
+      internalID: -1145245625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_13
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 255
+        width: 48
+        height: 73
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57afee6fd22744537bbfd2fec5602576
+      internalID: 1433516931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 305
+        width: 8
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d25993d171e39416392727517ebb1ca0
+      internalID: -1755164746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_15
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 292
+        width: 18
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7089d3f4c381449d5823106f35be1393
+      internalID: -244579339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 297
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4b77545c0b254c24815d3b3e3d644fa
+      internalID: -1146332556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 272
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116b453ea35f3438eaf593caaddb587a
+      internalID: -2036181429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_18
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 279
+        width: 6
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93025549e2a264ca19187e6ed1cb2d51
+      internalID: 484595547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_19
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 280
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a22a15e5ebb47dfb0696e7b5c7a63a
+      internalID: 293496459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_20
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 271
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b789b03016964a328c6c4adcf402e9d
+      internalID: 706888223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_21
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 184
+        width: 14
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 841e4b9ede48045e686194b818845efa
+      internalID: 1910639322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_22
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 239
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1010db075311941f2aede71a426bb665
+      internalID: -245911658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_23
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 241
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f000a41890f41d3b2f904f8d42af3d
+      internalID: -958184753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_24
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 217
+        width: 16
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcca19cf4a4d74b88b517fb530ae6726
+      internalID: 1648230174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_25
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 232
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d54eae0a4e4348c3afab50a59bb7fc1
+      internalID: -670952974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_26
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 236
+        width: 4
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bbb8bd9e133437cb5e4eda7a9ff427
+      internalID: 1581355018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_27
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 183
+        width: 70
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110e7bb7f143d4be396b11f53ad9d51d
+      internalID: 1112310806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 170
+        width: 49
+        height: 65
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6638f71cdb541b7b9d02679aa00c03
+      internalID: 1515899097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_29
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 177
+        width: 58
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e98784ae5f98478c854e6fa7de76f37
+      internalID: -98463583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_30
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 183
+        width: 62
+        height: 46
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101a9f4337cf7441fbbac1e19f05ffce
+      internalID: -862612740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_31
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 209
+        width: 19
+        height: 19
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a608ac1cd9c7b45e89236901cdbad8e4
+      internalID: 798671539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 183
+        width: 64
+        height: 47
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b153cc57ff8e148f8ae0e3bf51c628ad
+      internalID: -582659715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 209
+        width: 12
+        height: 18
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd1d83d0ed9b40eaa80d134088695cd
+      internalID: -1203740717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 224
+        width: 4
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 392d7af2e14c949f28e915f07e0d9907
+      internalID: 537501068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 192
+        width: 13
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26bcf245482e4aeda1eefcc2b692b9b
+      internalID: 612776864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 198
+        width: 14
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51462540f7194e8083b8b90c42a024f
+      internalID: -1001661429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 148
+        width: 9
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63ae43b0a2d934ce9948cbe2a7f97749
+      internalID: 450174595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 77
+        width: 61
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f4291da6e2004bba9d3c4fb51b30ccc
+      internalID: 176648187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 120
+        width: 12
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3739c4371ea44ff94fc0cd17ef7449
+      internalID: -55611350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 88
+        width: 75
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccbaedf456853499e8e18e36e720c1fc
+      internalID: -300242159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 109
+        width: 11
+        height: 17
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a4acf27cf894fdda14a920abb1b91c
+      internalID: 112993193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 117
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0624b38f6f32141fd8726653251261d6
+      internalID: -608223579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 121
+        width: 7
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7f571ce7e034c479ff296f612d09de
+      internalID: 952169433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 77
+        width: 70
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e26ebf3f92e7484bbce9601d746b35e
+      internalID: 558304601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_45
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 80
+        width: 77
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31dfceee407064532ae165584ac4a296
+      internalID: 2053141589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_46
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 85
+        width: 79
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a634aaf135e74d399a2c7531d9aea32
+      internalID: 187767712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_47
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 76
+        width: 76
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3108400eac22243348e13a2b914814c3
+      internalID: 1382417760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_48
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 76
+        width: 158
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e046590f918482b9c6cf5de8deb977
+      internalID: 305587667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_49
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 111
+        width: 11
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6f8bef208c447de867b5e7ba79328a
+      internalID: 2030772492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_50
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 93
+        width: 7
+        height: 10
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3c07f33ac3f48d799c327585e589b0
+      internalID: 608055720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_51
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 76
+        width: 79
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f255e9d4944b64b3994ac2961b114f2d
+      internalID: -443568434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_52
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 10
+        width: 79
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bcbb44bf1cdd417fa5edc0623887a1b
+      internalID: 1102758312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_53
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 47
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8315281fa75974d52a517a96aa521667
+      internalID: 832885266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_54
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 10
+        width: 79
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecdad3ed3673c4a96a03421897e3e795
+      internalID: 345104946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_55
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 46
+        width: 8
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1a2c0a88a96c4d739b01270989f1732
+      internalID: -2144325643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 50
+        width: 6
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f994ce358b044b798680461c2bcee0
+      internalID: -1630265508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_57
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 10
+        width: 79
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e365c7980c64697b207006e49c7de9
+      internalID: 1351852111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_58
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 10
+        width: 78
+        height: 34
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb6809304a9c4ca1b6dfbf4b2b87924
+      internalID: 1966922444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_59
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 10
+        width: 78
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb08d0155caf4923b9837d05fba0795
+      internalID: 1328822751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_60
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 10
+        width: 79
+        height: 33
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dea0eb7808c042e3b23b7972dc028c5
+      internalID: 898103020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_61
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 39
+        width: 5
+        height: 5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c0c5c9409d448e3b416db206f20c01
+      internalID: -665431145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Burning_Man-removebg-preview_62
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 38
+        width: 5
+        height: 6
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35f6575d62b040e7aca8b3c0c27d0fd
+      internalID: -887038590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Burning_Man-removebg-preview_36: -1001661429
+      Burning_Man-removebg-preview_41: 112993193
+      Burning_Man-removebg-preview_42: -608223579
+      Burning_Man-removebg-preview_29: -98463583
+      Burning_Man-removebg-preview_28: 1515899097
+      Burning_Man-removebg-preview_5: 392440113
+      Burning_Man-removebg-preview_6: 44468976
+      Burning_Man-removebg-preview_35: 612776864
+      Burning_Man-removebg-preview_9: 656429666
+      Burning_Man-removebg-preview_3: 926273579
+      Burning_Man-removebg-preview_45: 2053141589
+      Burning_Man-removebg-preview_52: 1102758312
+      Burning_Man-removebg-preview_44: 558304601
+      Burning_Man-removebg-preview_53: 832885266
+      Burning_Man-removebg-preview_25: -670952974
+      Burning_Man-removebg-preview_0: -1429935799
+      Burning_Man-removebg-preview_1: -848199796
+      Burning_Man-removebg-preview_20: 706888223
+      Burning_Man-removebg-preview_50: 608055720
+      Burning_Man-removebg-preview_18: 484595547
+      Burning_Man-removebg-preview_2: -487358
+      Burning_Man-removebg-preview_8: 840101273
+      Burning_Man-removebg-preview_34: 537501068
+      Burning_Man-removebg-preview_37: 450174595
+      Burning_Man-removebg-preview_62: -887038590
+      Burning_Man-removebg-preview_43: 952169433
+      Burning_Man-removebg-preview_55: -2144325643
+      Burning_Man-removebg-preview_46: 187767712
+      Burning_Man-removebg-preview_10: 518475902
+      Burning_Man-removebg-preview_48: 305587667
+      Burning_Man-removebg-preview_32: -582659715
+      Burning_Man-removebg-preview_14: -1755164746
+      Burning_Man-removebg-preview_23: -958184753
+      Burning_Man-removebg-preview_40: -300242159
+      Burning_Man-removebg-preview_30: -862612740
+      Burning_Man-removebg-preview_51: -443568434
+      Burning_Man-removebg-preview_39: -55611350
+      Burning_Man-removebg-preview_47: 1382417760
+      Burning_Man-removebg-preview_17: -2036181429
+      Burning_Man-removebg-preview_60: 898103020
+      Burning_Man-removebg-preview_58: 1966922444
+      Burning_Man-removebg-preview_61: -665431145
+      Burning_Man-removebg-preview_26: 1581355018
+      Burning_Man-removebg-preview_7: 977072244
+      Burning_Man-removebg-preview_21: 1910639322
+      Burning_Man-removebg-preview_12: -1145245625
+      Burning_Man-removebg-preview_31: 798671539
+      Burning_Man-removebg-preview_15: -244579339
+      Burning_Man-removebg-preview_19: 293496459
+      Burning_Man-removebg-preview_27: 1112310806
+      Burning_Man-removebg-preview_22: -245911658
+      Burning_Man-removebg-preview_38: 176648187
+      Burning_Man-removebg-preview_16: -1146332556
+      Burning_Man-removebg-preview_59: 1328822751
+      Burning_Man-removebg-preview_56: -1630265508
+      Burning_Man-removebg-preview_33: -1203740717
+      Burning_Man-removebg-preview_49: 2030772492
+      Burning_Man-removebg-preview_57: 1351852111
+      Burning_Man-removebg-preview_13: 1433516931
+      Burning_Man-removebg-preview_24: 1648230174
+      Burning_Man-removebg-preview_11: -1853017182
+      Burning_Man-removebg-preview_54: 345104946
+      Burning_Man-removebg-preview_4: -691127051
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
