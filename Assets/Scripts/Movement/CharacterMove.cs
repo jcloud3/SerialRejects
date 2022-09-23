@@ -16,6 +16,7 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private float vSpeed = 10f;
     [Range(0,1.0f)]
     [SerializeField] float movementSmoothing = 0.5f;
+    [SerializeField] private LayerMask wallLayer;
 
     [Header("Jumping Character")]
     [SerializeField] private Rigidbody2D charRB;
@@ -26,11 +27,15 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private Transform jumpDetector;
     [SerializeField] private float detectionDistance;
     [SerializeField] private LayerMask detectLayer;
+    [SerializeField] private Transform rightDetector;
+    [SerializeField] private Transform leftDetector;
+    [SerializeField] private float wallDetectionDistance;
     [SerializeField] private float jumpingGravityScale;
     [SerializeField] private float fallingGravityScale;
+   
     private bool jump;
     private bool facingRight = true;
-
+    
     PlayerInput input;
     Controls controls = new Controls();
     private Vector3 velocity = Vector3.zero;
@@ -43,6 +48,9 @@ public class CharacterMove : MonoBehaviour
 private void Update()
     {
         controls = input.GetInput();
+        
+            DetectWall();
+            
         if (controls.JumpState && currentJumps < possibleJumps)
         {
             jump = true;
@@ -60,6 +68,7 @@ private void Update()
             detectBase();
         }
         if (canMove){
+            
             Vector3 targetVelocity = new Vector2(controls.HorizontalMove * hSpeed, controls.VerticalMove * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
@@ -127,6 +136,54 @@ private void Update()
         {
             Gizmos.DrawRay(jumpDetector.transform.position, -Vector3.up * detectionDistance);
         }
+    }
+    //finish this
+    private void DetectWall(){
+        RaycastHit2D hit;
+        if (controls.VerticalMove>0){
+            hit = Physics2D.Raycast(jumpDetector.position, Vector2.up, wallDetectionDistance, wallLayer);
+            if(hit.collider != null)
+        {
+            //also probably need to adjust movement smoothing so it slams to a stop rather than sliding
+            controls.VerticalMove=0;
+        }
+        }
+        else if (controls.VerticalMove<0){
+             hit = Physics2D.Raycast(jumpDetector.position, -Vector2.up, wallDetectionDistance, wallLayer);
+            if(hit.collider != null)
+        {
+            
+            controls.VerticalMove=0;
+        }
+        }
+        else if (controls.HorizontalMove<0){
+            if (facingRight){
+             hit = Physics2D.Raycast(leftDetector.position, Vector2.left, wallDetectionDistance, wallLayer);
+            }
+            else{
+                 hit = Physics2D.Raycast(rightDetector.position, Vector2.left, wallDetectionDistance, wallLayer);
+            }
+            if(hit.collider != null)
+        {
+            Debug.Log("left");
+            controls.HorizontalMove=0;
+        }
+        }
+        else if (controls.HorizontalMove>0){
+            if(facingRight){
+             hit = Physics2D.Raycast(rightDetector.position, Vector2.right, wallDetectionDistance, wallLayer);
+            }
+            else{
+                 hit = Physics2D.Raycast(leftDetector.position, Vector2.right, wallDetectionDistance, wallLayer);
+            }
+            if(hit.collider != null)
+        {
+            Debug.Log("right");
+            controls.HorizontalMove=0;
+        }
+        }
+        
+        
     }
 
 }
