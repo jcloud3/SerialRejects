@@ -29,6 +29,7 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private LayerMask detectLayer;
     [SerializeField] private Transform rightDetector;
     [SerializeField] private Transform leftDetector;
+    [SerializeField] private Transform ceilingDetector;
     [SerializeField] private float wallDetectionDistance;
     [SerializeField] private float jumpingGravityScale;
     [SerializeField] private float fallingGravityScale;
@@ -141,7 +142,7 @@ private void Update()
     private void DetectWall(){
         RaycastHit2D hit;
         if (controls.VerticalMove>0){
-            hit = Physics2D.Raycast(jumpDetector.position, Vector2.up, wallDetectionDistance, wallLayer);
+            hit = Physics2D.Raycast(ceilingDetector.position, Vector2.up, wallDetectionDistance, wallLayer);
             if(hit.collider != null)
         {
             //also probably need to adjust movement smoothing so it slams to a stop rather than sliding
@@ -149,7 +150,7 @@ private void Update()
         }
         }
         else if (controls.VerticalMove<0){
-             hit = Physics2D.Raycast(jumpDetector.position, -Vector2.up, wallDetectionDistance, wallLayer);
+             hit = Physics2D.Raycast(ceilingDetector.position, -Vector2.up, wallDetectionDistance, wallLayer);
             if(hit.collider != null)
         {
             
@@ -165,7 +166,7 @@ private void Update()
             }
             if(hit.collider != null)
         {
-            Debug.Log("left");
+            //Debug.Log("left");
             controls.HorizontalMove=0;
         }
         }
@@ -178,7 +179,7 @@ private void Update()
             }
             if(hit.collider != null)
         {
-            Debug.Log("right");
+            //Debug.Log("right");
             controls.HorizontalMove=0;
         }
         }
