@@ -157,7 +157,7 @@ private void Update()
             controls.VerticalMove=0;
         }
         }
-        else if (controls.HorizontalMove<0){
+        if (controls.HorizontalMove<0){
             if (facingRight){
              hit = Physics2D.Raycast(leftDetector.position, Vector2.left, wallDetectionDistance, wallLayer);
             }
