@@ -1,6 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
+
+[RequireComponent(typeof(CharacterController))]
 
 public class CharacterMove : MonoBehaviour
 {
@@ -36,26 +39,37 @@ public class CharacterMove : MonoBehaviour
    
     private bool jump;
     private bool facingRight = true;
+    private Vector2 movementInput = Vector2.zero;
     
-    PlayerInput input;
-    Controls controls = new Controls();
+    CharacterController input;
+    //Controls controls = new Controls();
     private Vector3 velocity = Vector3.zero;
     // Start is called before the first frame update
     void Awake()
     {
-        input = GetComponent<PlayerInput>();
+        input = GetComponent<CharacterController>();
         
+    }
+
+    public void OnMove(InputAction.CallbackContext context){
+        movementInput = context.ReadValue<Vector2>();
+        DetectWall();
+    }
+    public void OnJump(InputAction.CallbackContext context){
+        jump = context.ReadValue<float>()>0;
+        jump = context.action.triggered && currentJumps < possibleJumps;
+        //Debug.Log("jump");
     }
 private void Update()
     {
-        controls = input.GetInput();
+        /*controls = input.GetInput();
         
             DetectWall();
             
         if (controls.JumpState && currentJumps < possibleJumps)
         {
             jump = true;
-        }
+        }*/
     }
 
     private void FixedUpdate()
@@ -69,8 +83,8 @@ private void Update()
             detectBase();
         }
         if (canMove){
-            
-            Vector3 targetVelocity = new Vector2(controls.HorizontalMove * hSpeed, controls.VerticalMove * vSpeed);
+            DetectWall();
+            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
             
@@ -105,10 +119,10 @@ private void Update()
             // --- 
 
             // rotate if we're facing the wrong way
-            if (controls.HorizontalMove > 0 && !facingRight)
+            if (movementInput.x > 0 && !facingRight)
             {
                 flip();
-            } else if(controls.HorizontalMove < 0 && facingRight)
+            } else if(movementInput.x < 0 && facingRight)
             {
                 flip();
             }
@@ -141,23 +155,27 @@ private void Update()
     //finish this
     private void DetectWall(){
         RaycastHit2D hit;
-        if (controls.VerticalMove>0){
+        if (movementInput.y>0){
             hit = Physics2D.Raycast(ceilingDetector.position, Vector2.up, wallDetectionDistance, wallLayer);
             if(hit.collider != null)
         {
             //also probably need to adjust movement smoothing so it slams to a stop rather than sliding
-            controls.VerticalMove=0;
+            movementInput.y=0;
+            velocity.y = 0;
+            //baseRB.velocity.y=0;
         }
         }
-        else if (controls.VerticalMove<0){
+        else if (movementInput.y<0){
              hit = Physics2D.Raycast(ceilingDetector.position, -Vector2.up, wallDetectionDistance, wallLayer);
             if(hit.collider != null)
         {
             
-            controls.VerticalMove=0;
+            movementInput.y=0;
+            velocity.y = 0;
+            //baseRB.velocity.y=0;
         }
         }
-        if (controls.HorizontalMove<0){
+        if (movementInput.x<0){
             if (facingRight){
              hit = Physics2D.Raycast(leftDetector.position, Vector2.left, wallDetectionDistance, wallLayer);
             }
@@ -167,10 +185,12 @@ private void Update()
             if(hit.collider != null)
         {
             //Debug.Log("left");
-            controls.HorizontalMove=0;
+            movementInput.x=0;
+            velocity.x=0;
+            //baseRB.velocity.x=0;
         }
         }
-        else if (controls.HorizontalMove>0){
+        else if (movementInput.x>0){
             if(facingRight){
              hit = Physics2D.Raycast(rightDetector.position, Vector2.right, wallDetectionDistance, wallLayer);
             }
@@ -179,12 +199,14 @@ private void Update()
             }
             if(hit.collider != null)
         {
-            //Debug.Log("right");
-            controls.HorizontalMove=0;
+            
+            movementInput.x=0;
+            velocity.x=0;
+            //baseRB.velocity.x=0;
         }
         }
         
-        
+        //return(movementInput.x!=0 && movementInput.y!=0);
     }
 
 }
