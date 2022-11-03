@@ -407,6 +407,56 @@ Transform:
   m_Father: {fileID: 481053082}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &592655065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5985707797044820126, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
+  m_PrefabInstance: {fileID: 1657744728}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &592655070
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592655065}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 314fa3c7a312743fc83c459b4e17f225, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &791697954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5985707797044820126, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
+  m_PrefabInstance: {fileID: 1462125259}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &791697959
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 791697954}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 314fa3c7a312743fc83c459b4e17f225, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &821236949
 GameObject:
   m_ObjectHideFlags: 0
@@ -1321,6 +1371,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5985707798318361678, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
+      propertyPath: m_animator
+      value: 
+      objectReference: {fileID: 791697959}
+    - target: {fileID: 5985707798318361678, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
       propertyPath: leftDetector
       value: 
       objectReference: {fileID: 525649601}
@@ -1744,6 +1798,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5985707798318361678, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
+      propertyPath: m_animator
+      value: 
+      objectReference: {fileID: 592655070}
     - target: {fileID: 5985707798318361678, guid: a2e150312e351479da652fc8cfc9ff08, type: 3}
       propertyPath: leftDetector
       value: 

@@ -36,10 +36,13 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private float wallDetectionDistance;
     [SerializeField] private float jumpingGravityScale;
     [SerializeField] private float fallingGravityScale;
-   
+    [SerializeField] private Animator m_animator;
+    private GameObject model;
     private bool jump;
     private bool facingRight = true;
     private Vector2 movementInput = Vector2.zero;
+
+    
     
     CharacterController input;
     //Controls controls = new Controls();
@@ -47,8 +50,9 @@ public class CharacterMove : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        //model = transform.find("Character Model");
         input = GetComponent<CharacterController>();
-        
+        //m_animator = Child.GetComponent<Animator>();
     }
 
     public void OnMove(InputAction.CallbackContext context){
@@ -87,6 +91,7 @@ private void Update()
             Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
+            m_animator.SetFloat("walking",Mathf.Abs(_velocity.x));
             
             //check if jumping
             if (doesCharacterJump)
