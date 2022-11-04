@@ -73,10 +73,23 @@ public class CharacterMove : MonoBehaviour
         //context.ReadValue<float>()>0;
         
         //Debug.Log(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix Attack A"));
+        //Need to change this to use delta time rather than testing current animation state.
         if (context.action.triggered){
-            m_animator.SetTrigger("AttackA");
+            if(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_A")){
+                m_animator.SetTrigger("AttackB");
+                Debug.Log("AttackB");
+            }
+            else if(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_B")){
+                Debug.Log("AttackC");
+                m_animator.SetTrigger("AttackC");
+            }
+            else{
+                m_animator.SetTrigger("AttackA");
+                //Debug.Log("AttackA");
+            }
+            
             attack = true;
-            Debug.Log("Attack");
+            
         }
         
     }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02c1ba720e5c84419a4f10c477be924e
+guid: 0230d5acfe5dd4a94acbc6b21c5f539b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,7 +116,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trix_Walk1
+      name: Trix_SpriteSheet copy_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,14 +130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e25f6f8427693488fa6c1382d3871c83
-      internalID: -539691646
+      spriteID: 3655d6a51d3f84d9cbb62d3af9cde999
+      internalID: 1377425381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Walk2
+      name: Trix_SpriteSheet copy_1
       rect:
         serializedVersion: 2
         x: 73
@@ -151,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fda952069c2841c588fd42d577fc045
-      internalID: -1728972835
+      spriteID: 5b93648e9f4eb4e23882284f5c61fcb2
+      internalID: 1936603242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Walk3
+      name: Trix_SpriteSheet copy_2
       rect:
         serializedVersion: 2
-        x: 146
-        y: 312
-        width: 73
-        height: 78
+        x: 148
+        y: 316
+        width: 70
+        height: 73
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f22b8461ac2a421681269be7974bd31
-      internalID: 355621699
+      spriteID: 522c35aa198614ec5af319f4396333d8
+      internalID: -709839486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Walk4
+      name: Trix_SpriteSheet copy_3
       rect:
         serializedVersion: 2
-        x: 219
-        y: 312
-        width: 73
-        height: 78
+        x: 221
+        y: 316
+        width: 71
+        height: 73
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 645e70792383e4a7e8d11754d85e8871
-      internalID: 1594318231
+      spriteID: 296783a19604b4f2e9c7a3d6120be304
+      internalID: 56123460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Walk5
+      name: Trix_SpriteSheet copy_4
       rect:
         serializedVersion: 2
-        x: 292
-        y: 312
-        width: 73
-        height: 78
+        x: 294
+        y: 316
+        width: 71
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c08adfedabc274eea80ddfd0e8440a50
-      internalID: 88237978
+      spriteID: 489e1c503ed3c4a05936805b20362252
+      internalID: 754565988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Walk6
+      name: Trix_SpriteSheet copy_5
       rect:
         serializedVersion: 2
-        x: 365
-        y: 312
-        width: 73
-        height: 78
+        x: 367
+        y: 316
+        width: 71
+        height: 74
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,14 +235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39fd4ecb8d3dc46048226a85d16f6702
-      internalID: 765302950
+      spriteID: 37cca1f7a9f8a45cca72a3f2c19a6b37
+      internalID: 368041245
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle1
+      name: Trix_SpriteSheet copy_6
       rect:
         serializedVersion: 2
         x: 0
@@ -256,14 +256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba03691300ccd4736b5a11e420ff977a
-      internalID: 1511117011
+      spriteID: 5b6a8780a6a834d508d81ab9bc98cb2b
+      internalID: -1128160296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle2
+      name: Trix_SpriteSheet copy_7
       rect:
         serializedVersion: 2
         x: 73
@@ -277,14 +277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fea741332c4a64252bea44c5ebe69e82
-      internalID: 677470061
+      spriteID: 7f61e2dff987d4d3dbebec8d159d7c65
+      internalID: -34838220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle3
+      name: Trix_SpriteSheet copy_8
       rect:
         serializedVersion: 2
         x: 146
@@ -298,14 +298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5082b0a024ca94753944acfbce2b633a
-      internalID: 1505576904
+      spriteID: 1ef625cd1a25a43758fd95db24cf5e6a
+      internalID: 1659800391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle4
+      name: Trix_SpriteSheet copy_9
       rect:
         serializedVersion: 2
         x: 219
@@ -319,14 +319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29f1b2d518dfc4db9b069cb94b8dfbd8
-      internalID: -1715554454
+      spriteID: f306e9b5a69934b059a86ff1e7e9c72a
+      internalID: -777098066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle5
+      name: Trix_SpriteSheet copy_10
       rect:
         serializedVersion: 2
         x: 292
@@ -340,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b43b2604041a046a1b9a59ef9a82e0b9
-      internalID: 1689939939
+      spriteID: 1f360a63ed42b4553ae5a8a16e99968f
+      internalID: 493265714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle6
+      name: Trix_SpriteSheet copy_11
       rect:
         serializedVersion: 2
         x: 365
@@ -361,14 +361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9deaaa03587af4e71aeb91158849c095
-      internalID: -923991003
+      spriteID: 4e4212463a62440948db7df95b3264d5
+      internalID: 1576426934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle7
+      name: Trix_SpriteSheet copy_12
       rect:
         serializedVersion: 2
         x: 438
@@ -382,14 +382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f81d190f24f924cfe927ac21686e7896
-      internalID: -1027136399
+      spriteID: 50f9523b31b6a487ea5bbdde6942f712
+      internalID: -1053428318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle8
+      name: Trix_SpriteSheet copy_13
       rect:
         serializedVersion: 2
         x: 511
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a20b187f21ce24f92ba9bf7d71e47d9b
-      internalID: 1347502029
+      spriteID: 5a7c34d07360443b7995e621f7422f33
+      internalID: 1872634698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle9
+      name: Trix_SpriteSheet copy_14
       rect:
         serializedVersion: 2
         x: 584
@@ -424,14 +424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da3a3d0c060bf44cdb5d16f173419140
-      internalID: -2003066561
+      spriteID: fd7812b3b8caf4c16b5a6127e868c572
+      internalID: 823682808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle10
+      name: Trix_SpriteSheet copy_15
       rect:
         serializedVersion: 2
         x: 657
@@ -445,14 +445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da6605c5c52144910893c3b1837a6b65
-      internalID: -62795675
+      spriteID: d841ef0547795434ba936d2cbb6968e6
+      internalID: -793857199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle11
+      name: Trix_SpriteSheet copy_16
       rect:
         serializedVersion: 2
         x: 730
@@ -466,17 +466,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4d5630c105d44dcf8135afe310e6d66
-      internalID: 841868967
+      spriteID: 00da69401181a4b54923ed19aee556a5
+      internalID: 1192437343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_Idle12
+      name: Trix_SpriteSheet copy_17
       rect:
         serializedVersion: 2
-        x: 803
+        x: 802
         y: 234
         width: 73
         height: 78
@@ -487,14 +487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0919ae4dde5c74750b8c9e3e36d89f7b
-      internalID: -1934578314
+      spriteID: 733ecb22c9fc74b098c503dd64477c01
+      internalID: 356377148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkA1
+      name: Trix_AttackA1
       rect:
         serializedVersion: 2
         x: 0
@@ -508,14 +508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29122566b809846a592e68d9e019fcf7
-      internalID: 952398358
+      spriteID: 819f6860238994f8998c056b2b3908af
+      internalID: -121506451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkA2
+      name: Trix_AttackA2
       rect:
         serializedVersion: 2
         x: 73
@@ -529,14 +529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9aaae5c57e7374dcfaad3f0462470cb1
-      internalID: -376862969
+      spriteID: 32f3d307fa315465ca9f6564f713c5f0
+      internalID: -1574057365
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkA3
+      name: Trix_AttackA3
       rect:
         serializedVersion: 2
         x: 146
@@ -550,14 +550,56 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 315020f07cb9446c6a3ddea8147f2e2b
-      internalID: 896509983
+      spriteID: f0efc9b88e2e24e2090b91ab33563832
+      internalID: -282099456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkB1
+      name: Trix_AttackA4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 156
+        width: 73
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 623eef318d4484616b8b53ed30221127
+      internalID: 25750123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trix_AttackA5
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 156
+        width: 73
+        height: 78
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6be87e1a678ee4e57a37849cd6393846
+      internalID: 967682094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Trix_AttackB1
       rect:
         serializedVersion: 2
         x: 0
@@ -571,14 +613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0712136f1b5be4b1793f8d455f25932a
-      internalID: 1236713895
+      spriteID: 605cdfe81f249422885cf50f995eb600
+      internalID: -1537288346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkB2
+      name: Trix_AttackB2
       rect:
         serializedVersion: 2
         x: 73
@@ -592,14 +634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 827fae56f00304622975021ffaaaef4c
-      internalID: 1784128410
+      spriteID: 4b9136b2cc7d54ebcb48406f73786305
+      internalID: 1804499667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkB3
+      name: Trix_AttackB3
       rect:
         serializedVersion: 2
         x: 146
@@ -613,14 +655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ba9afb43e874d5f9887b0ec66ab61e
-      internalID: 936425333
+      spriteID: 45c0f6892cda041fe938b510f61bb304
+      internalID: -472044417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkB4
+      name: Trix_AttackB4
       rect:
         serializedVersion: 2
         x: 219
@@ -634,14 +676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b58b187ae155453db46dd70338c538a
-      internalID: -2056158468
+      spriteID: fbf52e71cf6934a54a27f0aa69d5004d
+      internalID: -755234963
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_AtkB5
+      name: Trix_AttackB5
       rect:
         serializedVersion: 2
         x: 292
@@ -655,14 +697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c53fce54df164a59a30cce850808f30
-      internalID: -1843090393
+      spriteID: 3ac87c54222f84717b952d6f5749ea36
+      internalID: 1866055915
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_26
+      name: Trix_AttackC1
       rect:
         serializedVersion: 2
         x: 0
@@ -676,14 +718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd4d7774430b8495f90f8fb7924029df
-      internalID: -1939319427
+      spriteID: 780bf8844a2e74ee49cc2e3ae0782b5c
+      internalID: 976841525
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_27
+      name: Trix_AttackC2
       rect:
         serializedVersion: 2
         x: 73
@@ -697,14 +739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 351c25e0561614a1b9dcca7bb2aee8de
-      internalID: 2118536662
+      spriteID: 18dffdaf8dde0455aacbaa1fd55610d9
+      internalID: 1221702242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_28
+      name: Trix_AttackC3
       rect:
         serializedVersion: 2
         x: 146
@@ -718,14 +760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0863ac112b63d47d29eec05e7d6387f2
-      internalID: 841628911
+      spriteID: c1fa5361a0aab4b0cb9d80c7017ce1c8
+      internalID: -1567369606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_29
+      name: Trix_AttackC4
       rect:
         serializedVersion: 2
         x: 219
@@ -739,14 +781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0f21f32e966548889f72eb57315b5a8
-      internalID: 562322259
+      spriteID: b18e7b9d121f643dd84a214144e6e18b
+      internalID: -1420885845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_30
+      name: Trix_AttackC5
       rect:
         serializedVersion: 2
         x: 292
@@ -760,14 +802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12d26510e165a409da6842d02e3c50a8
-      internalID: 634677392
+      spriteID: 1f04cf09731c94fd48b15c5cdafa5189
+      internalID: 1207161699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_31
+      name: Trix_AttackC6
       rect:
         serializedVersion: 2
         x: 365
@@ -781,14 +823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be0c8cbe565c24d75be2101ce4f85260
-      internalID: -232024059
+      spriteID: 5f60caa93643540b6bcd9bfdbdc7b647
+      internalID: 1312287991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_32
+      name: Trix_AttackC7
       rect:
         serializedVersion: 2
         x: 438
@@ -802,14 +844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f97cbe668e32f4de4895845e66ec8fab
-      internalID: -884410855
+      spriteID: 06440cb0b5a024af6a666f2e254a3ee1
+      internalID: 501311319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_33
+      name: Trix_AttackC8
       rect:
         serializedVersion: 2
         x: 511
@@ -823,14 +865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d72745aa4effc42089f1633ae9b2e8bc
-      internalID: 779948307
+      spriteID: 4b260e76257ab4435aeb1e1a1c99804f
+      internalID: 872208094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_34
+      name: Trix_AttackC9
       rect:
         serializedVersion: 2
         x: 584
@@ -844,14 +886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65ffd8f62da6d425f981a740811a16f0
-      internalID: 196496191
+      spriteID: 88098548c0ec44ddaa3d55372dd84973
+      internalID: 1736842228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_35
+      name: Trix_AttackC10
       rect:
         serializedVersion: 2
         x: 657
@@ -865,8 +907,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d90104d97344d91ac6fc00c266c793
-      internalID: -1325492344
+      spriteID: 47b635415f5134f848eb2aa8a1c104ba
+      internalID: 796226463
       vertices: []
       indices: 
       edges: []
@@ -882,42 +924,44 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Trix_SpriteSheet_31: -232024059
-      Trix_AtkA2: -376862969
-      Trix_AtkA1: 952398358
-      Trix_Idle4: -1715554454
-      Trix_AtkA3: 896509983
-      Trix_SpriteSheet_26: -1939319427
-      Trix_SpriteSheet_30: 634677392
-      Trix_SpriteSheet_29: 562322259
-      Trix_Idle1: 1511117011
-      Trix_Idle11: 841868967
-      Trix_Walk5: 88237978
-      Trix_Idle6: -923991003
-      Trix_SpriteSheet_32: -884410855
-      Trix_AtkB3: 936425333
-      Trix_Idle9: -2003066561
-      Trix_Idle8: 1347502029
-      Trix_AtkB5: -1843090393
-      Trix_AtkB2: 1784128410
-      Trix_AtkB4: -2056158468
-      Trix_SpriteSheet_28: 841628911
-      Trix_Idle5: 1689939939
-      Trix_Walk1: -539691646
-      Trix_Idle3: 1505576904
-      Trix_SpriteSheet_34: 196496191
-      Trix_Idle7: -1027136399
-      Trix_Idle10: -62795675
-      Trix_Walk3: 355621699
-      Trix_SpriteSheet_27: 2118536662
-      Trix_Walk4: 1594318231
-      Trix_Walk2: -1728972835
-      Trix_AtkB1: 1236713895
-      Trix_Idle12: -1934578314
-      Trix_SpriteSheet_35: -1325492344
-      Trix_Walk6: 765302950
-      Trix_Idle2: 677470061
-      Trix_SpriteSheet_33: 779948307
+      Trix_SpriteSheet copy_4: 754565988
+      Trix_SpriteSheet copy_9: -777098066
+      Trix_SpriteSheet copy_16: 1192437343
+      Trix_AttackC9: 1736842228
+      Trix_AttackC7: 501311319
+      Trix_AttackB5: 1866055915
+      Trix_AttackA1: -121506451
+      Trix_AttackC6: 1312287991
+      Trix_AttackC1: 976841525
+      Trix_SpriteSheet copy_14: 823682808
+      Trix_AttackC4: -1420885845
+      Trix_SpriteSheet copy_12: -1053428318
+      Trix_AttackA4: 25750123
+      Trix_AttackA3: -282099456
+      Trix_SpriteSheet copy_15: -793857199
+      Trix_SpriteSheet copy_3: 56123460
+      Trix_AttackA2: -1574057365
+      Trix_SpriteSheet copy_10: 493265714
+      Trix_AttackC8: 872208094
+      Trix_SpriteSheet copy_0: 1377425381
+      Trix_SpriteSheet copy_8: 1659800391
+      Trix_AttackB3: -472044417
+      Trix_AttackB2: 1804499667
+      Trix_SpriteSheet copy_5: 368041245
+      Trix_AttackC3: -1567369606
+      Trix_SpriteSheet copy_1: 1936603242
+      Trix_SpriteSheet copy_13: 1872634698
+      Trix_SpriteSheet copy_6: -1128160296
+      Trix_AttackB4: -755234963
+      Trix_AttackC10: 796226463
+      Trix_SpriteSheet copy_17: 356377148
+      Trix_AttackB1: -1537288346
+      Trix_SpriteSheet copy_11: 1576426934
+      Trix_SpriteSheet copy_2: -709839486
+      Trix_AttackC2: 1221702242
+      Trix_SpriteSheet copy_7: -34838220
+      Trix_AttackA5: 967682094
+      Trix_AttackC5: 1207161699
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
