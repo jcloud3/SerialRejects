@@ -39,6 +39,8 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private Animator m_animator;
     private GameObject model;
     private bool jump;
+
+    private bool attack;
     private bool facingRight = true;
     private Vector2 movementInput = Vector2.zero;
 
@@ -60,12 +62,28 @@ public class CharacterMove : MonoBehaviour
         DetectWall();
     }
     public void OnJump(InputAction.CallbackContext context){
-        jump = context.ReadValue<float>()>0;
+        jump = context.performed;
+        //jump = context.ReadValue<float>()>0;
         jump = context.action.triggered && currentJumps < possibleJumps;
-        //Debug.Log("jump");
+        Debug.Log("jump");
+        
+    }
+
+    public void OnAttack(InputAction.CallbackContext context){
+        //context.ReadValue<float>()>0;
+        
+        //Debug.Log(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix Attack A"));
+        if (context.action.triggered){
+            m_animator.SetTrigger("AttackA");
+            attack = true;
+            Debug.Log("Attack");
+        }
+        
     }
 private void Update()
     {
+        
+        
         /*controls = input.GetInput();
         
             DetectWall();
@@ -91,7 +109,7 @@ private void Update()
             Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
-            m_animator.SetFloat("walking",Mathf.Abs(_velocity.x));
+            
             
             //check if jumping
             if (doesCharacterJump)
@@ -121,6 +139,9 @@ private void Update()
                     onBase = false;
                 }
             }
+            if(onBase){
+                m_animator.SetFloat("walking",Mathf.Abs(_velocity.x)+Mathf.Abs(_velocity.y));
+            }
             // --- 
 
             // rotate if we're facing the wrong way
@@ -132,6 +153,10 @@ private void Update()
                 flip();
             }
         }
+        /*if(attack){
+            m_animator.SetTrigger("AttackA");
+            attack = false;
+        }*/
     }
         
     

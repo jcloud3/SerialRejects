@@ -494,7 +494,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_18
+      name: Trix_AtkA1
       rect:
         serializedVersion: 2
         x: 0
@@ -515,7 +515,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_19
+      name: Trix_AtkA2
       rect:
         serializedVersion: 2
         x: 73
@@ -536,7 +536,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_20
+      name: Trix_AtkA3
       rect:
         serializedVersion: 2
         x: 146
@@ -557,7 +557,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_21
+      name: Trix_AtkB1
       rect:
         serializedVersion: 2
         x: 0
@@ -578,7 +578,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_22
+      name: Trix_AtkB2
       rect:
         serializedVersion: 2
         x: 73
@@ -599,7 +599,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_23
+      name: Trix_AtkB3
       rect:
         serializedVersion: 2
         x: 146
@@ -620,7 +620,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_24
+      name: Trix_AtkB4
       rect:
         serializedVersion: 2
         x: 219
@@ -641,7 +641,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trix_SpriteSheet_25
+      name: Trix_AtkB5
       rect:
         serializedVersion: 2
         x: 292
@@ -883,36 +883,36 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       Trix_SpriteSheet_31: -232024059
-      Trix_SpriteSheet_20: 896509983
-      Trix_SpriteSheet_24: -2056158468
+      Trix_AtkA2: -376862969
+      Trix_AtkA1: 952398358
       Trix_Idle4: -1715554454
+      Trix_AtkA3: 896509983
       Trix_SpriteSheet_26: -1939319427
       Trix_SpriteSheet_30: 634677392
       Trix_SpriteSheet_29: 562322259
       Trix_Idle1: 1511117011
       Trix_Idle11: 841868967
       Trix_Walk5: 88237978
-      Trix_SpriteSheet_23: 936425333
       Trix_Idle6: -923991003
-      Trix_SpriteSheet_21: 1236713895
       Trix_SpriteSheet_32: -884410855
+      Trix_AtkB3: 936425333
       Trix_Idle9: -2003066561
       Trix_Idle8: 1347502029
+      Trix_AtkB5: -1843090393
+      Trix_AtkB2: 1784128410
+      Trix_AtkB4: -2056158468
       Trix_SpriteSheet_28: 841628911
       Trix_Idle5: 1689939939
       Trix_Walk1: -539691646
       Trix_Idle3: 1505576904
       Trix_SpriteSheet_34: 196496191
-      Trix_SpriteSheet_25: -1843090393
       Trix_Idle7: -1027136399
       Trix_Idle10: -62795675
-      Trix_SpriteSheet_18: 952398358
       Trix_Walk3: 355621699
       Trix_SpriteSheet_27: 2118536662
-      Trix_SpriteSheet_19: -376862969
-      Trix_Walk2: -1728972835
       Trix_Walk4: 1594318231
-      Trix_SpriteSheet_22: 1784128410
+      Trix_Walk2: -1728972835
+      Trix_AtkB1: 1236713895
       Trix_Idle12: -1934578314
       Trix_SpriteSheet_35: -1325492344
       Trix_Walk6: 765302950
