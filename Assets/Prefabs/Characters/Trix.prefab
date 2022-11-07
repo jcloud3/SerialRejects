@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048343685698837241}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.08039547, y: 0.001970545, z: 0}
+  m_LocalPosition: {x: -0.157, y: -0.026, z: 0}
   m_LocalScale: {x: 0.23961575, y: 0.4532253, z: 0.51111114}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -474,7 +474,6 @@ GameObject:
   - component: {fileID: 6745818847579545622}
   - component: {fileID: 6745818847579545623}
   - component: {fileID: 6745818847579545641}
-  - component: {fileID: 1048343686491873597}
   - component: {fileID: 1048343686316861121}
   m_Layer: 8
   m_Name: Trix
@@ -585,72 +584,6 @@ MonoBehaviour:
   jumpingGravityScale: 1
   fallingGravityScale: 1.5
   m_animator: {fileID: 1048343686578312331}
---- !u!114 &1048343686491873597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6745818847579545642}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 814e448dffc514d11bec342ccb15d3e6, type: 3}
-  m_NotificationBehavior: 2
-  m_UIInputModule: {fileID: 0}
-  m_DeviceLostEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_DeviceRegainedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ControlsChangedEvent:
-    m_PersistentCalls:
-      m_Calls: []
-  m_ActionEvents:
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6745818847579545641}
-        m_TargetAssemblyTypeName: CharacterMove, Assembly-CSharp
-        m_MethodName: OnJump
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: abf8867b-7d05-44a1-88d4-26c02371c23e
-    m_ActionName: Player2/Jump[/Keyboard/shift]
-  - m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 6745818847579545641}
-        m_TargetAssemblyTypeName: CharacterMove, Assembly-CSharp
-        m_MethodName: OnMove
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 7e67ecaf-3e83-409c-a0b1-d0fa5add4d8b
-    m_ActionName: Player2/Movement[/Keyboard/upArrow,/Keyboard/downArrow,/Keyboard/leftArrow,/Keyboard/rightArrow]
-  - m_PersistentCalls:
-      m_Calls: []
-    m_ActionId: 1554e532-d9cb-46a4-a154-6fa139e6857a
-    m_ActionName: Player2/Attack[/Keyboard/shift]
-  m_NeverAutoSwitchControlSchemes: 1
-  m_DefaultControlScheme: Keyboard
-  m_DefaultActionMap: Player2
-  m_SplitScreenIndex: -1
-  m_Camera: {fileID: 0}
 --- !u!114 &1048343686316861121
 MonoBehaviour:
   m_ObjectHideFlags: 0
