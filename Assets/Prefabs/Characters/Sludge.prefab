@@ -145,7 +145,7 @@ Animator:
   m_GameObject: {fileID: 242600304724471548}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 314fa3c7a312743fc83c459b4e17f225, type: 2}
+  m_Controller: {fileID: 9100000, guid: 0b00dfc22bd0345c09468a80df5b9e0c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -396,7 +396,7 @@ MonoBehaviour:
   wallDetectionDistance: 0.7
   jumpingGravityScale: 1
   fallingGravityScale: 1.5
-  m_animator: {fileID: 5786107607440854670}
+  m_animator: {fileID: 0}
 --- !u!1 &5786107605514266638
 GameObject:
   m_ObjectHideFlags: 0

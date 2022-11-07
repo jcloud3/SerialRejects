@@ -255,7 +255,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sludge_Anim_Controller
+  m_Name: Spoil_Anim_Controller
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: walking
@@ -317,7 +317,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: ae2086bd75e6b43fd927873b4c987aaf, type: 2}
+  m_Motion: {fileID: 7400000, guid: ec0f0fbd9a3c34769928273254c3a679, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
