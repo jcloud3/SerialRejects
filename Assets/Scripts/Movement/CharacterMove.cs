@@ -83,7 +83,7 @@ public class CharacterMove : MonoBehaviour
                 Debug.Log("AttackC");
                 m_animator.SetTrigger("AttackC");
             }
-            else{
+            else if(!m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_C")){
                 m_animator.SetTrigger("AttackA");
                 //Debug.Log("AttackA");
             }
