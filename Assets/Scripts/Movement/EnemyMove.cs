@@ -1,11 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
-[RequireComponent(typeof(CharacterController))]
 
-public class CharacterMove : MonoBehaviour
+
+
+public class EnemyMove : MonoBehaviour
 {
     [SerializeField] private bool canMove = true;
 
@@ -37,79 +37,40 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private float jumpingGravityScale;
     [SerializeField] private float fallingGravityScale;
     [SerializeField] private Animator m_animator;
+
+    [SerializeField] private GameObject[] players;
     private GameObject model;
     private bool jump;
 
     private bool attack;
-    private bool facingRight = true;
+    private bool facingRight = false;
     private Vector2 movementInput = Vector2.zero;
 
+    private GameObject target;
+
     
+
+    private float distanceFromTarget;
+
     
-    CharacterController input;
-    //Controls controls = new Controls();
     private Vector3 velocity = Vector3.zero;
     // Start is called before the first frame update
     void Awake()
     {
-        //model = transform.find("Character Model");
-        input = GetComponent<CharacterController>();
-        //m_animator = Child.GetComponent<Animator>();
         charRB.gravityScale = 0;
     }
 
-    public void OnMove(InputAction.CallbackContext context){
-        movementInput = context.ReadValue<Vector2>();
-        DetectWall();
-    }
-    public void OnJump(InputAction.CallbackContext context){
-        jump = context.performed;
-        //jump = context.ReadValue<float>()>0;
-        jump = context.action.triggered && currentJumps < possibleJumps;
-        Debug.Log("jump");
-        
-    }
-
-    public void OnAttack(InputAction.CallbackContext context){
-        //context.ReadValue<float>()>0;
-        
-        //Debug.Log(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix Attack A"));
-        //Need to change this to use delta time rather than testing current animation state.
-        if (context.action.triggered){
-            if(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_A")){
-                m_animator.SetTrigger("AttackB");
-                Debug.Log("AttackB");
-            }
-            else if(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_B")){
-                Debug.Log("AttackC");
-                m_animator.SetTrigger("AttackC");
-            }
-            else if(!m_animator.GetCurrentAnimatorStateInfo(0).IsName("Trix_Attack_C")){
-                m_animator.SetTrigger("AttackA");
-                //Debug.Log("AttackA");
-            }
-            
-            attack = true;
-            
-        }
-        
-    }
 private void Update()
     {
         
         
-        /*controls = input.GetInput();
-        
-            DetectWall();
-            
-        if (controls.JumpState && currentJumps < possibleJumps)
-        {
-            jump = true;
-        }*/
     }
 
     private void FixedUpdate()
     {
+        movementInput.x = 0;
+        movementInput.y = 0;
+        FindTarget();
         Move();
     }
     public void Move()
@@ -120,6 +81,7 @@ private void Update()
         }
         if (canMove){
             DetectWall();
+            
             Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
@@ -131,8 +93,10 @@ private void Update()
                 if (onBase)
                 {
                     // on base
-                    charRB.gravityScale = 0;
+                    //this.attachedRigidbody.useGravity = false;
                     charRB.velocity = _velocity;
+                    charRB.gravityScale = 0;
+                    Debug.Log("on Base");
                 }
                 else
                 {
@@ -147,13 +111,15 @@ private void Update()
 
                 if (jump)
                 {
-                    //charRB.useGravity = true;
                     charRB.AddForce(Vector2.up * jumpVal, ForceMode2D.Impulse);
                     charRB.gravityScale = jumpingGravityScale;
                     jump = false;
                     currentJumps++;
                     onBase = false;
                 }
+            }
+            else{
+                charRB.velocity = new Vector2(_velocity.x, charRB.velocity.y);
             }
             if(onBase){
                 m_animator.SetFloat("walking",Mathf.Abs(_velocity.x)+Mathf.Abs(_velocity.y));
@@ -169,28 +135,69 @@ private void Update()
                 flip();
             }
         }
-        /*if(attack){
-            m_animator.SetTrigger("AttackA");
-            attack = false;
-        }*/
+        
     }
         
-    
+        private void FindTarget(){
+            NearestTarget();
+            if (Vector2.Distance(target.transform.position,this.transform.position)>3.5f){
+                movementInput.x = (target.transform.position.x - this.transform.position.x);
+                movementInput.y = (target.transform.position.y - this.transform.position.y);
+            }
+            else{
+                if(Mathf.Abs(target.transform.position.y - this.transform.position.y) > 0.2f){
+                    movementInput.x = 0;
+                    movementInput.y = (target.transform.position.y - this.transform.position.y);
+                }
+            }
+            
+            //Debug.Log(movementInput);
+            //Debug.Log(Vector2.Distance(target.transform.position,this.transform.position));
+
+        }
+    private void NearestTarget(){
+        if (target == null){
+            float nearest = 1000;
+            foreach (GameObject player in players){
+                
+                if (Vector2.Distance(player.transform.position,this.transform.position)<nearest){
+                    nearest = Vector2.Distance(player.transform.position,this.transform.position);
+                    target = player;
+                }
+                Debug.Log(target);
+            }
+        }
+    }
     private void flip(){
         facingRight = !facingRight;
         transform.Rotate(0,180,0);
     }
     private void detectBase()
     {
+        //rework this to use the collider but not use it as a platform, just measure the y value and stop the fall there.
 
         RaycastHit2D hit = Physics2D.Raycast(jumpDetector.position, -Vector2.up, detectionDistance, detectLayer);
-        if(hit.collider != null)
+        if(hit != null)
         {
+            onBase = true;
+            currentJumps = 0;
+        }
+
+    }
+/*    private void OnTriggerEnter(Collider other){
+        if (other.attachedRigidbody == baseRB){
             onBase = true;
             currentJumps = 0;
         }
     }
 
+    private void OnTriggerExit(Collider other){
+        if (other.attachedRigidbody == baseRB){
+            onBase = false;
+            currentJumps = 1;
+        }
+    }
+*/
     private void OnDrawGizmos()
     {
         if (doesCharacterJump)
