@@ -284,7 +284,7 @@ GameObject:
   - component: {fileID: 242600306136431120}
   - component: {fileID: 242600306136431123}
   - component: {fileID: 242600306136431122}
-  - component: {fileID: 242600306136431148}
+  - component: {fileID: 642044416}
   m_Layer: 8
   m_Name: Sludge
   m_TagString: Untagged
@@ -340,7 +340,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.2663424, y: -0.07807088}
@@ -356,7 +356,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.095077, y: 0.19651175}
   m_EdgeRadius: 0
---- !u!114 &242600306136431148
+--- !u!114 &642044416
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -365,25 +365,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 242600306136431151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e382dd732d53e4914baa24c8502238da, type: 3}
+  m_Script: {fileID: 11500000, guid: e616283e2712647e1867e2028cf14fcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 1
   doesCharacterJump: 1
   baseRB: {fileID: 242600306136431123}
-  hSpeed: 10
-  vSpeed: 6
-  movementSmoothing: 0.04
+  hSpeed: 2
+  vSpeed: 1
+  movementSmoothing: 0
   wallLayer:
     serializedVersion: 2
     m_Bits: 128
   charRB: {fileID: 242600304724471520}
-  jumpVal: 7
+  jumpVal: 5
   possibleJumps: 1
   currentJumps: 0
   onBase: 0
   jumpDetector: {fileID: 242600305118697588}
-  detectionDistance: 0.1
+  detectionDistance: 0
   detectLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -394,6 +394,8 @@ MonoBehaviour:
   jumpingGravityScale: 1
   fallingGravityScale: 1.5
   m_animator: {fileID: 5786107607440854670}
+  players:
+  - {fileID: 0}
 --- !u!1 &5786107605514266638
 GameObject:
   m_ObjectHideFlags: 0

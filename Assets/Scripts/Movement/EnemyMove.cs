@@ -58,6 +58,7 @@ public class EnemyMove : MonoBehaviour
     void Awake()
     {
         charRB.gravityScale = 0;
+        players = GameObject.FindGameObjectsWithTag("Player");
     }
 
 private void Update()
