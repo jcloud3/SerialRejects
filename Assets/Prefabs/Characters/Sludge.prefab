@@ -285,6 +285,7 @@ GameObject:
   - component: {fileID: 242600306136431123}
   - component: {fileID: 242600306136431122}
   - component: {fileID: 642044416}
+  - component: {fileID: 1476178405}
   m_Layer: 8
   m_Name: Sludge
   m_TagString: Untagged
@@ -373,17 +374,17 @@ MonoBehaviour:
   baseRB: {fileID: 242600306136431123}
   hSpeed: 2
   vSpeed: 1
-  movementSmoothing: 0
+  movementSmoothing: 0.04
   wallLayer:
     serializedVersion: 2
     m_Bits: 128
   charRB: {fileID: 242600304724471520}
-  jumpVal: 5
+  jumpVal: 7
   possibleJumps: 1
   currentJumps: 0
   onBase: 0
   jumpDetector: {fileID: 242600305118697588}
-  detectionDistance: 0
+  detectionDistance: 0.1
   detectLayer:
     serializedVersion: 2
     m_Bits: 256
@@ -396,6 +397,19 @@ MonoBehaviour:
   m_animator: {fileID: 5786107607440854670}
   players:
   - {fileID: 0}
+--- !u!114 &1476178405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242600306136431151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5069f3ea205d84fb1b050c336c908a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &5786107605514266638
 GameObject:
   m_ObjectHideFlags: 0

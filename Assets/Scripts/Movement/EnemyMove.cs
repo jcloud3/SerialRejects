@@ -69,10 +69,12 @@ private void Update()
 
     private void FixedUpdate()
     {
+        /*
         movementInput.x = 0;
         movementInput.y = 0;
         FindTarget();
         Move();
+        */
     }
     public void Move()
     {
@@ -97,7 +99,7 @@ private void Update()
                     //this.attachedRigidbody.useGravity = false;
                     charRB.velocity = _velocity;
                     charRB.gravityScale = 0;
-                    Debug.Log("on Base");
+                    
                 }
                 else
                 {
@@ -139,7 +141,7 @@ private void Update()
         
     }
         
-        private void FindTarget(){
+        public GameObject FindTarget(){
             NearestTarget();
             if (Vector2.Distance(target.transform.position,this.transform.position)>3.5f){
                 movementInput.x = (target.transform.position.x - this.transform.position.x);
@@ -154,9 +156,9 @@ private void Update()
             
             //Debug.Log(movementInput);
             //Debug.Log(Vector2.Distance(target.transform.position,this.transform.position));
-
+            return target;
         }
-    private void NearestTarget(){
+    public void NearestTarget(){
         if (target == null){
             float nearest = 1000;
             foreach (GameObject player in players){
@@ -175,7 +177,6 @@ private void Update()
     }
     private void detectBase()
     {
-        //rework this to use the collider but not use it as a platform, just measure the y value and stop the fall there.
 
         RaycastHit2D hit = Physics2D.Raycast(jumpDetector.position, -Vector2.up, detectionDistance, detectLayer);
         if(hit != null)
@@ -185,20 +186,7 @@ private void Update()
         }
 
     }
-/*    private void OnTriggerEnter(Collider other){
-        if (other.attachedRigidbody == baseRB){
-            onBase = true;
-            currentJumps = 0;
-        }
-    }
 
-    private void OnTriggerExit(Collider other){
-        if (other.attachedRigidbody == baseRB){
-            onBase = false;
-            currentJumps = 1;
-        }
-    }
-*/
     private void OnDrawGizmos()
     {
         if (doesCharacterJump)
@@ -206,17 +194,16 @@ private void Update()
             Gizmos.DrawRay(jumpDetector.transform.position, -Vector3.up * detectionDistance);
         }
     }
-    //finish this
+    
     private void DetectWall(){
         RaycastHit2D hit;
         if (movementInput.y>0){
             hit = Physics2D.Raycast(ceilingDetector.position, Vector2.up, wallDetectionDistance, wallLayer);
             if(hit.collider != null)
         {
-            //also probably need to adjust movement smoothing so it slams to a stop rather than sliding
+            
             movementInput.y=0;
             velocity.y = 0;
-            //baseRB.velocity.y=0;
         }
         }
         else if (movementInput.y<0){
@@ -226,7 +213,6 @@ private void Update()
             
             movementInput.y=0;
             velocity.y = 0;
-            //baseRB.velocity.y=0;
         }
         }
         if (movementInput.x<0){
@@ -238,10 +224,8 @@ private void Update()
             }
             if(hit.collider != null)
         {
-            //Debug.Log("left");
             movementInput.x=0;
             velocity.x=0;
-            //baseRB.velocity.x=0;
         }
         }
         else if (movementInput.x>0){
@@ -256,11 +240,20 @@ private void Update()
             
             movementInput.x=0;
             velocity.x=0;
-            //baseRB.velocity.x=0;
         }
         }
         
-        //return(movementInput.x!=0 && movementInput.y!=0);
     }
 
+
+    private void Attack(){}
+
+public float GetDistanceToTarget(){
+    return distanceFromTarget;
+}
+public void SetJump(){
+    jump = true;
+}
+    
+    
 }
