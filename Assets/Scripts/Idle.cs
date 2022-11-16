@@ -7,7 +7,7 @@ public class Idle : State
     public Idle(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {
         name = STATE.IDLE;
-        controls = npc.GetComponent<EnemyMove>();
+        //controls = npc.GetComponent<EnemyMove>();
     }
     public override void Enter()
     {

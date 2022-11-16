@@ -432,7 +432,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 642044416, guid: 366a8241da3b74765bd336baecc055f8, type: 3}
       propertyPath: hSpeed
-      value: 0.5
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 642044416, guid: 366a8241da3b74765bd336baecc055f8, type: 3}
+      propertyPath: vSpeed
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 642044416, guid: 366a8241da3b74765bd336baecc055f8, type: 3}
       propertyPath: players.Array.data[0]

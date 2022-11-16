@@ -26,6 +26,7 @@ public class State
         anim = _anim;
         stage = EVENT.ENTER;
         player = _player;
+        controls = npc.GetComponent<EnemyMove>();
     }
 
     public virtual void Enter(){stage = EVENT.UPDATE;}
@@ -41,5 +42,11 @@ public class State
             return nextState;
         }
         return this;
+    }
+    public bool CanAttack(){
+        if(controls.GetDistanceToTarget() < attackDist){
+            return true;
+        }
+        return false;
     }
 }

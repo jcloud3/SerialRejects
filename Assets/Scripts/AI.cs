@@ -10,7 +10,7 @@ public class AI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.
+        
         anim = this.GetComponentInChildren(typeof(Animator)) as Animator;
         currentState = new Idle(this.gameObject,anim,player);
     }

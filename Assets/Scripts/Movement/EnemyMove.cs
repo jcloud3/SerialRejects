@@ -146,13 +146,16 @@ private void Update()
             if (Vector2.Distance(target.transform.position,this.transform.position)>3.5f){
                 movementInput.x = (target.transform.position.x - this.transform.position.x);
                 movementInput.y = (target.transform.position.y - this.transform.position.y);
+                
             }
             else{
                 if(Mathf.Abs(target.transform.position.y - this.transform.position.y) > 0.2f){
                     movementInput.x = 0;
                     movementInput.y = (target.transform.position.y - this.transform.position.y);
+                    
                 }
             }
+            movementInput.Normalize();
             
             //Debug.Log(movementInput);
             //Debug.Log(Vector2.Distance(target.transform.position,this.transform.position));

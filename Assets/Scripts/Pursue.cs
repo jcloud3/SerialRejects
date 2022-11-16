@@ -9,7 +9,7 @@ public class Pursue : State
    public Pursue(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {
         name = STATE.PURSUE;
-        controls = npc.GetComponent<EnemyMove>();
+        //controls = npc.GetComponent<EnemyMove>();
         //set speed of npc
         //agent.isStopped = false
     }
