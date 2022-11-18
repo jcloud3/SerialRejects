@@ -83,7 +83,9 @@ private void Update()
             detectBase();
         }
         if (canMove){
+            FindTarget();
             DetectWall();
+            
             
             Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
@@ -158,8 +160,9 @@ private void Update()
             }
             
             movementInput.Normalize();
+           
             
-            //Debug.Log(movementInput);
+            
             //Debug.Log(Vector2.Distance(target.transform.position,this.transform.position));
             return target;
         }
@@ -176,7 +179,7 @@ private void Update()
             }
         }
     }
-    private void flip(){
+    public void flip(){
         facingRight = !facingRight;
         transform.Rotate(0,180,0);
     }

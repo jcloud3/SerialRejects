@@ -15,6 +15,7 @@ public class Pursue : State
     }
     public override void Enter()
     {
+        
         currentPlayer = 0;
         anim.SetTrigger("isWalking");
         base.Enter();
@@ -24,13 +25,14 @@ public class Pursue : State
         /*if (Random.Range(1,100)<2){
             controls.SetJump();
         }*/
+        
         controls.Move();
         if (CanAttack()){
             nextState = new Attack(npc,anim,player);
             stage = EVENT.EXIT;
         }
         //this probably makes no sense, need to rethink this once AI complete
-        else if (controls.GetDistanceToTarget()<4.0f){
+        else if (controls.GetDistanceToTarget()<5.0f){
             nextState = new Idle(npc,anim,player);
             stage = EVENT.EXIT;
         }

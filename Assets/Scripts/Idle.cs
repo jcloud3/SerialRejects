@@ -11,11 +11,16 @@ public class Idle : State
     }
     public override void Enter()
     {
+        Debug.Log("Start Idle");
         anim.SetTrigger("isIdle");
         base.Enter();
     }
     public override void Update()
     {
+        if (CanAttack()){
+            nextState = new Attack(npc,anim,player);
+            stage = EVENT.EXIT;
+        }
         if(controls.FindTarget()!=null){
             nextState = new Pursue(npc,anim,player);
             stage = EVENT.EXIT;
