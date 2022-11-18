@@ -20,6 +20,7 @@ public class State
 
     public EnemyMove controls;
     float attackDist = 3.0f;
+    float attackAngle = 7.0f;
 
     public State(GameObject _npc, Animator _anim, Transform _player){
         npc = _npc;
@@ -45,7 +46,16 @@ public class State
     }
     public bool CanAttack(){
         if(controls.GetDistanceToTarget() < attackDist){
-            return true;
+            //might work to use 0 || 180 as the test if can attack
+            Vector2 direction = player.position-npc.transform.position;
+            float angle = Vector2.Angle(direction,-npc.transform.right);
+            if(angle<attackAngle){
+                Debug.Log("can attack");
+                Debug.Log(angle);
+                return true;
+            }
+            
+            
         }
         return false;
     }

@@ -25,8 +25,12 @@ public class Pursue : State
             controls.SetJump();
         }*/
         controls.Move();
-        
-        if (controls.GetDistanceToTarget()<4.0f){
+        if (CanAttack()){
+            nextState = new Attack(npc,anim,player);
+            stage = EVENT.EXIT;
+        }
+        //this probably makes no sense, need to rethink this once AI complete
+        else if (controls.GetDistanceToTarget()<4.0f){
             nextState = new Idle(npc,anim,player);
             stage = EVENT.EXIT;
         }

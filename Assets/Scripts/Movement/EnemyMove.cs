@@ -143,7 +143,8 @@ private void Update()
         
         public GameObject FindTarget(){
             NearestTarget();
-            if (Vector2.Distance(target.transform.position,this.transform.position)>3.5f){
+            distanceFromTarget = Vector2.Distance(target.transform.position,this.transform.position);
+            if (distanceFromTarget>3.5f){
                 movementInput.x = (target.transform.position.x - this.transform.position.x);
                 movementInput.y = (target.transform.position.y - this.transform.position.y);
                 
@@ -155,6 +156,7 @@ private void Update()
                     
                 }
             }
+            
             movementInput.Normalize();
             
             //Debug.Log(movementInput);
