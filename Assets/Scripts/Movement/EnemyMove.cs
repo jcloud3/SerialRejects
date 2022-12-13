@@ -142,6 +142,72 @@ private void Update()
         }
         
     }
+    public void MoveAway()
+    {
+        if (!onBase && doesCharacterJump)
+        {
+            detectBase();
+        }
+        if (canMove){
+            FindTarget();
+            DetectWall();
+            
+            
+            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed *-1, movementInput.y * vSpeed * -1);
+            Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
+            baseRB.velocity = _velocity;
+            
+            
+            //check if jumping
+            if (doesCharacterJump)
+            {
+                if (onBase)
+                {
+                    // on base
+                    //this.attachedRigidbody.useGravity = false;
+                    charRB.velocity = _velocity;
+                    charRB.gravityScale = 0;
+                    
+                }
+                else
+                {
+                    // in air
+                    if (charRB.velocity.y < 0)
+                    {
+                        charRB.gravityScale = fallingGravityScale;
+                    }
+
+                    charRB.velocity = new Vector2(_velocity.x, charRB.velocity.y);
+                }
+
+                if (jump)
+                {
+                    charRB.AddForce(Vector2.up * jumpVal, ForceMode2D.Impulse);
+                    charRB.gravityScale = jumpingGravityScale;
+                    jump = false;
+                    currentJumps++;
+                    onBase = false;
+                }
+            }
+            else{
+                charRB.velocity = new Vector2(_velocity.x, charRB.velocity.y);
+            }
+            if(onBase){
+                m_animator.SetFloat("walking",Mathf.Abs(_velocity.x)+Mathf.Abs(_velocity.y));
+            }
+            // --- 
+
+            // rotate if we're facing the wrong way
+            if (movementInput.x > 0 && !facingRight)
+            {
+                flip();
+            } else if(movementInput.x < 0 && facingRight)
+            {
+                flip();
+            }
+        }
+        
+    }
         
         public GameObject FindTarget(){
             NearestTarget();
