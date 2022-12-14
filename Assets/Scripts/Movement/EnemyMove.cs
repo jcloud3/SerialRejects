@@ -152,8 +152,11 @@ private void Update()
             FindTarget();
             DetectWall();
             
+            //int moveAdjustX = Random.Range(-1,2);
+            //int moveAdjustY = Random.Range(-1,2);
             
-            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed *-1, movementInput.y * vSpeed * -1);
+            
+            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed * -1, movementInput.y * vSpeed );
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
             

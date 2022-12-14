@@ -49,7 +49,7 @@ public class State
             
             Vector2 direction = player.position-npc.transform.position;
             float angle = Vector2.Angle(direction,-npc.transform.right);
-            Debug.Log(angle);
+            
             if(angle>90){
                 controls.flip();
             }
