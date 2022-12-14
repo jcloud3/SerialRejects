@@ -13,7 +13,7 @@ public class Attack : State
     }
     public override void Enter()
     {
-        
+        Debug.Log("Attack");
         anim.SetTrigger("isAttacking");
         isInAttackAnimation = true;
         base.Enter();
@@ -24,7 +24,8 @@ public class Attack : State
             isInAttackAnimation = false;
         }
         //controls.Move();
-        if(!CanAttack()){
+        if (!isInAttackAnimation){
+        if(!CanAttack() ){
             nextState = new Pursue(npc, anim,player);
             stage = EVENT.EXIT;
         }
@@ -33,10 +34,11 @@ public class Attack : State
                 stage = EVENT.EXIT;
             }
 
-        else if(!isInAttackAnimation){
+        else {
             nextState = new Idle(npc, anim,player);
             
             stage = EVENT.EXIT;
+        }
         }
 
         

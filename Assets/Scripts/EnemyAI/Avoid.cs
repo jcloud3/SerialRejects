@@ -6,8 +6,9 @@ public class Avoid : State
 {
     //can use this to track which player is being pursued
    int currentPlayer = -1;
-   float maxAvoidDistance = 7.5f;
+   float maxAvoidDistance = 6.5f;
    float randomPursueFloat = .005f;
+   float minAvoidDistance = 1.5f;
    public Avoid(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {
         name = STATE.AVOID;
@@ -17,7 +18,7 @@ public class Avoid : State
     }
     public override void Enter()
     {
-        
+        Debug.Log("Avoid");
         currentPlayer = 0;
         anim.SetTrigger("isWalking");
         base.Enter();
@@ -33,14 +34,16 @@ public class Avoid : State
             nextState = new Attack(npc,anim,player);
             stage = EVENT.EXIT;
         }*/
+        if (controls.GetDistanceToTarget() > minAvoidDistance){
         if (Random.Range(0f,1f)<randomPursueFloat){
                 nextState = new Idle(npc,anim,player);
                 stage = EVENT.EXIT;
             }
         
-        if (controls.GetDistanceToTarget()>maxAvoidDistance){
+        else if (controls.GetDistanceToTarget()>maxAvoidDistance){
             nextState = new Idle(npc,anim,player);
             stage = EVENT.EXIT;
+        }
         }
         
         

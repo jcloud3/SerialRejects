@@ -150,13 +150,14 @@ private void Update()
         }
         if (canMove){
             FindTarget();
-            DetectWall();
+            
             
             //int moveAdjustX = Random.Range(-1,2);
             //int moveAdjustY = Random.Range(-1,2);
+            movementInput.y *= -1;
+            DetectWall();
             
-            
-            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed * -1, movementInput.y * vSpeed );
+            Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed , movementInput.y * vSpeed );
             Vector2 _velocity = Vector3.SmoothDamp(baseRB.velocity, targetVelocity, ref velocity, movementSmoothing);
             baseRB.velocity = _velocity;
             
@@ -225,6 +226,10 @@ private void Update()
                     movementInput.x = 0;
                     movementInput.y = (target.transform.position.y - this.transform.position.y);
                     
+                }
+                else{
+                    movementInput.x = (target.transform.position.x - this.transform.position.x);
+                    movementInput.y = (target.transform.position.y - this.transform.position.y);
                 }
             }
             

@@ -7,6 +7,7 @@ public class Pursue : State
     //can use this to track which player is being pursued
    int currentPlayer = -1;
    float randomAvoidFloat = .001f;
+   float minAvoidDistance = 1.5f;
    float randomAttackChance = .5f;
    public Pursue(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {
@@ -17,7 +18,7 @@ public class Pursue : State
     }
     public override void Enter()
     {
-        
+        Debug.Log("Pursue");
         currentPlayer = 0;
         anim.SetTrigger("isWalking");
         base.Enter();
@@ -34,13 +35,17 @@ public class Pursue : State
             stage = EVENT.EXIT;
         }
         //this probably makes no sense, need to rethink this once AI complete
-        else if (controls.GetDistanceToTarget()<5.0f){
-            if (Random.Range(0f,1f)<randomAvoidFloat){
+        else if (controls.GetDistanceToTarget()<minAvoidDistance){
+            
+                nextState = new Avoid(npc,anim,player);
+                stage = EVENT.EXIT;
+        }
+        else if (Random.Range(0f,1f)<randomAvoidFloat){
                 nextState = new Avoid(npc,anim,player);
                 stage = EVENT.EXIT;
             }
             
-        }
+        
         
         
     }

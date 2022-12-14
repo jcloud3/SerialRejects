@@ -5,6 +5,7 @@ using UnityEngine;
 public class Idle : State
 {
     float randomAttackChance = .5f;
+    float minAvoidDistance = 2.5f;
     public Idle(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {
         name = STATE.IDLE;
@@ -12,7 +13,7 @@ public class Idle : State
     }
     public override void Enter()
     {
-        
+        Debug.Log("Idle");
         anim.SetTrigger("isIdle");
         base.Enter();
     }
@@ -23,8 +24,15 @@ public class Idle : State
             stage = EVENT.EXIT;
         }
         if(controls.FindTarget()!=null){
-            nextState = new Pursue(npc,anim,player);
-            stage = EVENT.EXIT;
+            if(controls.GetDistanceToTarget()<minAvoidDistance){
+                nextState = new Avoid(npc,anim,player);
+                stage = EVENT.EXIT;
+            }
+            else{
+                nextState = new Pursue(npc,anim,player);
+                stage = EVENT.EXIT;
+            }
+            
         }
         
     }
