@@ -149,7 +149,7 @@ private void Update()
             detectBase();
         }
         if (canMove){
-            FindTarget();
+            AvoidTarget();
             
             
             //int moveAdjustX = Random.Range(-1,2);
@@ -225,20 +225,25 @@ private void Update()
                 if(Mathf.Abs(target.transform.position.y - this.transform.position.y) > 0.2f){
                     movementInput.x = 0;
                     movementInput.y = (target.transform.position.y - this.transform.position.y);
-                    
                 }
                 else{
                     movementInput.x = (target.transform.position.x - this.transform.position.x);
                     movementInput.y = (target.transform.position.y - this.transform.position.y);
                 }
             }
+            movementInput.Normalize();
+            return target;
+        }
+        public void AvoidTarget(){
+            NearestTarget();
+            distanceFromTarget = Vector2.Distance(target.transform.position,this.transform.position);
+            
+            movementInput.x = -1*(target.transform.position.x - this.transform.position.x);
+            movementInput.y = -1*(target.transform.position.y - this.transform.position.y);
+                
             
             movementInput.Normalize();
-           
             
-            
-            //Debug.Log(Vector2.Distance(target.transform.position,this.transform.position));
-            return target;
         }
     public void NearestTarget(){
         if (target == null){
