@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,1053 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0065d1dbeed4dffb76c72e9a63c9be
+      internalID: 794730787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1694115d346440168b01906f0aef410
+      internalID: -576039265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c991083fda5b415e82d3b92367ba719
+      internalID: -1554892320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31775190df67c4acc889055e605fa1d6
+      internalID: 1855284528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bbc2caff0d94316a0615c6952e84d5
+      internalID: 1763592630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4416a97588aeb46b9b584d351d4192b1
+      internalID: -2025294688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1650
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23c866d5d89d14c49a5f4ff5b91da0ca
+      internalID: -697097647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc9be125b82f4634aede51ec947d82e
+      internalID: -1353791363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c768c01c2d574e76b1a3a09e29781d3
+      internalID: -797241934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e31ad5d76f884a54a3c1b7b95f74355
+      internalID: -803460926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8626d7550055c49c28b9edfd27db4cc0
+      internalID: 1825905232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66656a2a0d7345b3be7f7b8a9e89be7
+      internalID: 207626356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e89bc47cc8d64c19a842d139a91319b
+      internalID: -774262393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1375
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d03cc8bc022e84cadba45e67871abe78
+      internalID: 1920206544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072cfd50cf0714f25a96b63fda35afc1
+      internalID: 1864319752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eae8a78d0f7043b88239252a5425d62
+      internalID: 1527701098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19c5679786ab24074b8ae177afc38e56
+      internalID: -1777315525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8490d155203254df880dc23abc4a69a3
+      internalID: 929769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 515c8d7685c1148869c6392b86e2d44b
+      internalID: -201626577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedaa4213147c4e5f80344bdcf570f9c
+      internalID: 1940764613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 1100
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8252a05847cad4fdcb25a1d29ee35c44
+      internalID: 335514585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca1e472364e59438c97d011b0c27a86a
+      internalID: 1810348182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4c72a13bd154cc3ba475c7dd518f49
+      internalID: -554835717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e77ccb4800a44fdd9c328d01840aba0
+      internalID: -1222113815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd742f3fa09e34ae8b7bd88126e98990
+      internalID: 183130875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09eed287bfb4b4e15994bc48cf9d805a
+      internalID: -1866459250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c9d5ba3745747bd8a538264eb9a16f
+      internalID: 1439341499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 825
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33d7fdfec56d14b7990eaf8371371258
+      internalID: 1030016713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21798c11f81d848358f8dc128cfa4cd7
+      internalID: -1708625892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c008c493480d34fbc98fb9fe6fa5011d
+      internalID: -303430750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443d2e9aa7ef340b1982aa2116752c7f
+      internalID: 1917076506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89eb07a28797c437b8a4093136a3015c
+      internalID: 1914521900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd65d4898a6a43b6a31f20cfd9fa1db
+      internalID: -1135805081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29732c7fe6424000a85f825b5abfaa9
+      internalID: 757134509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 550
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204045ec1306b46aebc8817215ab060f
+      internalID: 1190493452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7990d1b4d65344b40aa14336ea19b011
+      internalID: 414915320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c040ce24b233641478eaff9e17f0fe71
+      internalID: 526983341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd4ef5242cc2843508b7531facc7fa52
+      internalID: -223457159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8bcade3a8622411293aeafc0051a0e0
+      internalID: 1748582839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485e80103e99945e185df95ce501f72e
+      internalID: -1086666948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_40
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0e7e121a552840169c3b0a09a85b1ca
+      internalID: 937279435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 275
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b8ec7eebb4c4a479e744490d2986f2
+      internalID: -366618177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb0ecfef75794454974523e41a4b867
+      internalID: -508434571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c07d212b334a410b9ea0819f0682876
+      internalID: -1859491364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 300a912e2350c4762b45415f49604ed6
+      internalID: 723130000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101dd768c76a74e7680eb805b9a13aaf
+      internalID: 1780979450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33bc7ec8cb0049f1a86bcf11d62d2c8
+      internalID: -384013418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Idle_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 0
+        width: 221
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 290973b5f2dfb49348495d40393d4930
+      internalID: 1597346351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1133,55 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beatrix_Idle_sheet_40: 937279435
+      Beatrix_Idle_sheet_2: -1554892320
+      Beatrix_Idle_sheet_7: -1353791363
+      Beatrix_Idle_sheet_17: 929769
+      Beatrix_Idle_sheet_25: -1866459250
+      Beatrix_Idle_sheet_42: -508434571
+      Beatrix_Idle_sheet_47: 1597346351
+      Beatrix_Idle_sheet_8: -797241934
+      Beatrix_Idle_sheet_43: -1859491364
+      Beatrix_Idle_sheet_27: 1030016713
+      Beatrix_Idle_sheet_37: -223457159
+      Beatrix_Idle_sheet_13: 1920206544
+      Beatrix_Idle_sheet_14: 1864319752
+      Beatrix_Idle_sheet_9: -803460926
+      Beatrix_Idle_sheet_46: -384013418
+      Beatrix_Idle_sheet_34: 1190493452
+      Beatrix_Idle_sheet_3: 1855284528
+      Beatrix_Idle_sheet_35: 414915320
+      Beatrix_Idle_sheet_4: 1763592630
+      Beatrix_Idle_sheet_6: -697097647
+      Beatrix_Idle_sheet_32: -1135805081
+      Beatrix_Idle_sheet_38: 1748582839
+      Beatrix_Idle_sheet_30: 1917076506
+      Beatrix_Idle_sheet_21: 1810348182
+      Beatrix_Idle_sheet_44: 723130000
+      Beatrix_Idle_sheet_15: 1527701098
+      Beatrix_Idle_sheet_10: 1825905232
+      Beatrix_Idle_sheet_22: -554835717
+      Beatrix_Idle_sheet_18: -201626577
+      Beatrix_Idle_sheet_23: -1222113815
+      Beatrix_Idle_sheet_5: -2025294688
+      Beatrix_Idle_sheet_20: 335514585
+      Beatrix_Idle_sheet_41: -366618177
+      Beatrix_Idle_sheet_1: -576039265
+      Beatrix_Idle_sheet_26: 1439341499
+      Beatrix_Idle_sheet_16: -1777315525
+      Beatrix_Idle_sheet_0: 794730787
+      Beatrix_Idle_sheet_19: 1940764613
+      Beatrix_Idle_sheet_29: -303430750
+      Beatrix_Idle_sheet_11: 207626356
+      Beatrix_Idle_sheet_12: -774262393
+      Beatrix_Idle_sheet_39: -1086666948
+      Beatrix_Idle_sheet_36: 526983341
+      Beatrix_Idle_sheet_28: -1708625892
+      Beatrix_Idle_sheet_31: 1914521900
+      Beatrix_Idle_sheet_24: 183130875
+      Beatrix_Idle_sheet_33: 757134509
+      Beatrix_Idle_sheet_45: 1780979450
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
