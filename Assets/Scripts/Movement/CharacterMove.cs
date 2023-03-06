@@ -44,7 +44,7 @@ public class CharacterMove : MonoBehaviour
     private bool facingRight = true;
     private Vector2 movementInput = Vector2.zero;
 
-    
+    [SerializeField] HealthBarAdjust _healthBar;
     
     CharacterController input;
     //Controls controls = new Controls();
@@ -57,7 +57,20 @@ public class CharacterMove : MonoBehaviour
         //m_animator = Child.GetComponent<Animator>();
         charRB.gravityScale = 0;
     }
-
+    public void OnHeal(InputAction.CallbackContext context){
+        
+        //jump = context.ReadValue<float>()>0;
+        PlayerHeal(10);
+        Debug.Log("heal");
+        
+    }
+    public void OnDamage(InputAction.CallbackContext context){
+        
+        //jump = context.ReadValue<float>()>0;
+        PlayerTakeDamage(10);
+        Debug.Log("damage");
+        
+    }
     public void OnMove(InputAction.CallbackContext context){
         movementInput = context.ReadValue<Vector2>();
         DetectWall();
@@ -94,7 +107,18 @@ public class CharacterMove : MonoBehaviour
         }
         
     }
+
+    private void PlayerTakeDamage(int damage){
+        GameManager.gameManager._playerHealth.DamageUnit(damage);
+        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+    }
+    //call this to heal player
+    private void PlayerHeal(int healAmount){
+        GameManager.gameManager._playerHealth.HealUnit(healAmount);
+        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+    }
 private void Update()
+
     {
         
         
