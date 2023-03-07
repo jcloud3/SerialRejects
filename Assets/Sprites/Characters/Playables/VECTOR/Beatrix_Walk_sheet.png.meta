@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,801 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1362.5
+        width: 206.16667
+        height: 272.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2af05a7ec624a57ad20772a4a84bf8
+      internalID: 599668063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1362.5
+        width: 206.16667
+        height: 272.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbb78bfd0b99485884b7d2648024c05
+      internalID: 401286351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1362
+        width: 210
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f19ecf0a0e4a44c8a2e90dfb73e73b2
+      internalID: 1871169697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 1362
+        width: 206
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f159da4c690467885a784d7c0173f7
+      internalID: -868351715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1362
+        width: 210
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95658ffc34ab3447187ed88098103e1f
+      internalID: -1993058870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 1362.5
+        width: 206.16667
+        height: 272.5
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 287c6d06f5bfc48238400f57ac111c58
+      internalID: 1146802896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1090
+        width: 204
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64c5568bd54314a77958e9cbc6021dca
+      internalID: 229074508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 1090
+        width: 201
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63bc695885474530bd6dd7212a281b1
+      internalID: 197633765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 1090
+        width: 203
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84617719428e949f49e8db72aa38de5a
+      internalID: 1517991234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 1090
+        width: 202
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4176a26063e4587b04b53f48725af7
+      internalID: 606511430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 1090
+        width: 202
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352e7a77f09344c7f8f7f3a1953c25d4
+      internalID: 1969442610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 1092
+        width: 211
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d2136376c46246339b89dc565df5cfc
+      internalID: -2138551517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 818
+        width: 201
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ee821a7f5d1b4325a63f970be014df2
+      internalID: -505678049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 818
+        width: 201
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e7a07fb051b4d209c21f36c7866a52
+      internalID: -1321141769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 818
+        width: 205
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de53c9a0d72c34bb288a49207eb9d194
+      internalID: -1265759415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 607
+        y: 818
+        width: 204
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb88f1962b3de496fabba8b29c959a58
+      internalID: 1920918727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 818
+        width: 201
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f4b8780de094c26b6256be70259060
+      internalID: 1357861979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 1014
+        y: 818
+        width: 207
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f61a4add97a904f63a1896f2c6f2369a
+      internalID: 406359441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 540
+        width: 196
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b075069d28345daa7519e3d00d8e26
+      internalID: -273073394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 542
+        width: 201
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7d9ac7978181462e812c3100c4615fe
+      internalID: 1736096071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 544
+        width: 202
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c352a2a1ed91e411cb0ff2692257c33c
+      internalID: 700409660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 546
+        width: 203
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e18b90dc874443dbb0d1bb2a8420ab
+      internalID: 1403490634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 550
+        width: 204
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6570768edaef54ecc8aa6d8719be33a7
+      internalID: -81020274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 546
+        width: 209
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c655545b1274e3fa793359312d6c10
+      internalID: 887100710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 271
+        width: 198
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b75ff6caf53c4bd4be53598bf0d5fba
+      internalID: -2077569331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 269
+        width: 197
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b073b67e71df8450cbbb3f901a40f333
+      internalID: 1206822165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 271
+        width: 203
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50b3f0e1a2791438a84716805c02c3a8
+      internalID: -1009427228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 279
+        width: 204
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c5076d241844889a2a4570c7bf78ea
+      internalID: -332167050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 279
+        width: 205
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8f627bb1ff5478ba121bfc9ebf9def
+      internalID: 425559987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 274
+        width: 210
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16aaf5d461ff4cb58f31746048e3095
+      internalID: 1548136511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 195
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0779a100d1ae485db6826df3d3c85d6
+      internalID: 1560604452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 195
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f987f832fba4410c9cfae8e98990fb0
+      internalID: -1448474873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 206
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687e15dac58234ee889cad60b4d5e891
+      internalID: 1896444465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 6
+        width: 197
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed03aa5e812c426ebb7cf6cb950ac48
+      internalID: -1111246292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 6
+        width: 201
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b837fcf518d1444aa477889d316c02e
+      internalID: -498883135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Walk_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 0
+        width: 201
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aad716fc083c48b09bf17ae2bec4d8a
+      internalID: -900008732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +881,43 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beatrix_Walk_sheet_11: -2138551517
+      Beatrix_Walk_sheet_20: 700409660
+      Beatrix_Walk_sheet_28: 425559987
+      Beatrix_Walk_sheet_9: 606511430
+      Beatrix_Walk_sheet_0: 599668063
+      Beatrix_Walk_sheet_14: -1265759415
+      Beatrix_Walk_sheet_29: 1548136511
+      Beatrix_Walk_sheet_15: 1920918727
+      Beatrix_Walk_sheet_7: 197633765
+      Beatrix_Walk_sheet_35: -900008732
+      Beatrix_Walk_sheet_22: -81020274
+      Beatrix_Walk_sheet_4: -1993058870
+      Beatrix_Walk_sheet_5: 1146802896
+      Beatrix_Walk_sheet_12: -505678049
+      Beatrix_Walk_sheet_23: 887100710
+      Beatrix_Walk_sheet_17: 406359441
+      Beatrix_Walk_sheet_16: 1357861979
+      Beatrix_Walk_sheet_25: 1206822165
+      Beatrix_Walk_sheet_24: -2077569331
+      Beatrix_Walk_sheet_32: 1896444465
+      Beatrix_Walk_sheet_34: -498883135
+      Beatrix_Walk_sheet_6: 229074508
+      Beatrix_Walk_sheet_31: -1448474873
+      Beatrix_Walk_sheet_18: -273073394
+      Beatrix_Walk_sheet_2: 1871169697
+      Beatrix_Walk_sheet_13: -1321141769
+      Beatrix_Walk_sheet_26: -1009427228
+      Beatrix_Walk_sheet_27: -332167050
+      Beatrix_Walk_sheet_33: -1111246292
+      Beatrix_Walk_sheet_30: 1560604452
+      Beatrix_Walk_sheet_3: -868351715
+      Beatrix_Walk_sheet_21: 1403490634
+      Beatrix_Walk_sheet_10: 1969442610
+      Beatrix_Walk_sheet_1: 401286351
+      Beatrix_Walk_sheet_8: 1517991234
+      Beatrix_Walk_sheet_19: 1736096071
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

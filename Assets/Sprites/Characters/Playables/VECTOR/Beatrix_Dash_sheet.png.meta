@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,1389 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1880
+        width: 223
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a5508e55b9dc4f78942a98ae5b4b9ec
+      internalID: 1100469125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 1881
+        width: 220
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6fcb8aca3a14038b90c624bcb14805
+      internalID: -2133029032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 1885
+        width: 222
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb013d688ac442698000e185ffea56c
+      internalID: 854484497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 1884
+        width: 219
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8e35a35daa74dfbb6550f909d9ec62
+      internalID: 1229708545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1883
+        width: 213
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484c41b852eee4959b4b76deb595f1e3
+      internalID: 903638095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 1884
+        width: 216
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb545982bc0440059fb853c879d483c
+      internalID: 248325313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 1881
+        width: 212
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d2a61059bd949f5af8aa95a39dd9c5
+      internalID: 1678195740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1524
+        y: 1884
+        width: 220
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d934988735c9541e18a1f3a0f122e1a6
+      internalID: 1412722648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1608
+        width: 209
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab25c0deb301410c8bb13f2cac1b332
+      internalID: -114242759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1609
+        width: 213
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8fb3ae4f622412b8802796f35a4d2a
+      internalID: -1558210436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 1613
+        width: 232
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bf49cc5306314dbca4a6f633024f5a1
+      internalID: 542358376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 1617
+        width: 223
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9843072e3cbd74553b428ba66ac2c777
+      internalID: -80382193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1612
+        width: 207
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d2dc598fd69c4c79a2309a075964b68
+      internalID: -131068102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 1611
+        width: 222
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f409494c96b847f08d3ce061b894ed0
+      internalID: -1768476925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1613
+        width: 218
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a055e647181420e9b8321468f778b2
+      internalID: -625908197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1612
+        width: 215
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d008bc09a4ab542218f9256017af17b7
+      internalID: 278872895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1336
+        width: 203
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426cb9c5ca9b64d1b971bec922fb49e3
+      internalID: 1771378437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 1336
+        width: 211
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cec6acf43c764d4fa995260c955b8d9
+      internalID: 1726653119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 1341
+        width: 211
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59669bd32cdf4f109e000f1da8f2e8c
+      internalID: -804239580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1344
+        width: 237
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0024311be430046b5832446329a418ac
+      internalID: 1982608069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1341
+        width: 204
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aeb341a1dfdd44ab973f814baf948a2
+      internalID: 304133768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 1343
+        width: 208
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5924f66d8589740068b275ae08715855
+      internalID: -1888954089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1341
+        width: 238
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b955d9d28984ce2afaa5c113d3c187
+      internalID: -601441035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 1512
+        y: 1341
+        width: 212
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e247040a638764791b4c7a701645f80c
+      internalID: -1735060228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1065
+        width: 200
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f858d8890e584e419327a78474a0a6f
+      internalID: 1574558376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1067
+        width: 206
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61d538d8b1026479ba275613539370dc
+      internalID: -962924201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1069
+        width: 211
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485524fff63ee4b84a305c58205614da
+      internalID: -1518557059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 1072
+        width: 211
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5acb68ac87a4b149bbce64ecad5346
+      internalID: -467320953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 1066
+        width: 203
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cdba74a24eca4081b68a41dab9a8245
+      internalID: 1069955981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 1072
+        width: 209
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a203c4ba5a2c445d8e505eee4aa99d0
+      internalID: -361067222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_30
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 1069
+        width: 204
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae999228b677947b4b02f0517970aa46
+      internalID: 819929306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_31
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 1069
+        width: 203
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4c83a13c0494cfab36923cd838d3f1
+      internalID: 1744186117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 797
+        width: 195
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2b9e83e870840de905e77ebe0cd60c
+      internalID: 1805083631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 801
+        width: 198
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2095258eee0194e7394d3bcb1e21feaa
+      internalID: 1930739690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_34
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 802
+        width: 206
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bc5710a5121442689e828c3a957175
+      internalID: -975315607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_35
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 803
+        width: 216
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 864eee57b5cfa4a9fa7de98bf27724e3
+      internalID: -601982761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_36
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 800
+        width: 189
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456fa32a6987349a99f31a21499fb21d
+      internalID: 918859907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_37
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 804
+        width: 218
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d9f727ee2ea042428ad97923f583f0a
+      internalID: -1691659334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_38
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 798
+        width: 191
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252c68ec8f80a415cbdc16c863dca71b
+      internalID: 1566689320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 798
+        width: 185
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3039215da84214742993188beb7fbcf2
+      internalID: -587903583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 527
+        width: 179
+        height: 270
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b999cdf17b61646db9c651a847c05c4b
+      internalID: 2037274307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_43
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 532
+        width: 182
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50970533cdfa543c9be10435e985a238
+      internalID: 1918506206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_44
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 533
+        width: 189
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ffca02ea4744c789298fdf4e3c5000
+      internalID: 1370723029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_45
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 533
+        width: 180
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00e692aa3383446e9c5b40cca8a5d48
+      internalID: 1356569762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_46
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 533
+        width: 190
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae19efc8dcd5b427c90ff9fcc6aca588
+      internalID: 191884447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_47
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 536
+        width: 187
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc23a9742837e4891ba8d1d5ef98cc5a
+      internalID: 282669045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_48
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 532
+        width: 174
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985d5c53f7c0944b5b647bc3cc44fcb5
+      internalID: 1281788807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1351
+        y: 531
+        width: 179
+        height: 267
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e181de972f284448b6e445df7b16a28
+      internalID: 401833141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 175
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90687adcf7a9743778e7c17f9b72e709
+      internalID: -230711048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_52
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 257
+        width: 179
+        height: 275
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90338c2fe3f0844578756b585c7b5d75
+      internalID: -743267731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_53
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 256
+        width: 182
+        height: 278
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f6c25033c72e415a93e4192ac98e63d
+      internalID: 729047814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_54
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 259
+        width: 174
+        height: 274
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0d04d7ca1cd34cda900369ac76517c6
+      internalID: 456172271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_55
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 260
+        width: 181
+        height: 273
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd704f7c0fb2e4e24b35ef833e265956
+      internalID: 692419310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_56
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 270
+        width: 184
+        height: 265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e700cfaaee8ea43adba7bc770644dba0
+      internalID: 1361741489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_57
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 266
+        width: 177
+        height: 266
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0807b1bd07a374e18b3cea7fe5ee17c3
+      internalID: -402774090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_58
+      rect:
+        serializedVersion: 2
+        x: 1276
+        y: 260
+        width: 178
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e247e0ce20b5447aba375f076cf3c443
+      internalID: -546373531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.875
+        width: 222.75
+        height: 269.125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8b8dc06de59d4f64877d409cf3f0020
+      internalID: -830652980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_97
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 0.875
+        width: 222.75
+        height: 269.125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c8c71a2609342aaad42bbf580285d7
+      internalID: -1503121809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_99
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 0.875
+        width: 222.75
+        height: 269.125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a51ccb2564f7a4fa0b082b15e3f1d1ea
+      internalID: 1087309274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 261
+        width: 202
+        height: 272
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f882e0413f14d5ba508e1639f5d472
+      internalID: 402085253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_60
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1
+        width: 185
+        height: 268
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f6514416aaba48ec9bf0ac8370a46cb
+      internalID: 573842323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_98
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 0.875
+        width: 222.75
+        height: 269.125
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab95176746de648aeb213f0adb0c9ce9
+      internalID: -2083147619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_50
+      rect:
+        serializedVersion: 2
+        x: 1528
+        y: 532
+        width: 188
+        height: 269
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b975fa524565043589ad039fb106b1e2
+      internalID: -1704285648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Dash_sheet_41
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 799
+        width: 182
+        height: 271
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c10df56f20df41389c590ca53ca5341
+      internalID: -1794775817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +1469,71 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beatrix_Dash_sheet_16: 1771378437
+      Beatrix_Dash_sheet_25: -962924201
+      Beatrix_Dash_sheet_36: 918859907
+      Beatrix_Dash_sheet_8: -114242759
+      Beatrix_Dash_sheet_33: 1930739690
+      Beatrix_Dash_sheet_57: -402774090
+      Beatrix_Dash_sheet_6: 1678195740
+      Beatrix_Dash_sheet_17: 1726653119
+      Beatrix_Dash_sheet_18: -804239580
+      Beatrix_Dash_sheet_99: 1087309274
+      Beatrix_Dash_sheet_31: 1744186117
+      Beatrix_Dash_sheet_97: -1503121809
+      Beatrix_Dash_sheet_23: -1735060228
+      Beatrix_Dash_sheet_47: 282669045
+      Beatrix_Dash_sheet_1: -2133029032
+      Beatrix_Dash_sheet_37: -1691659334
+      Beatrix_Dash_sheet_21: -1888954089
+      Beatrix_Dash_sheet_98: -2083147619
+      Beatrix_Dash_sheet_12: -131068102
+      Beatrix_Dash_sheet_44: 1370723029
+      Beatrix_Dash_sheet_43: 1918506206
+      Beatrix_Dash_sheet_10: 542358376
+      Beatrix_Dash_sheet_32: 1805083631
+      Beatrix_Dash_sheet_30: 819929306
+      Beatrix_Dash_sheet_42: 2037274307
+      Beatrix_Dash_sheet_13: -1768476925
+      Beatrix_Dash_sheet_46: 191884447
+      Beatrix_Dash_sheet_59: 402085253
+      Beatrix_Dash_sheet_60: 573842323
+      Beatrix_Dash_sheet_2: 854484497
+      Beatrix_Dash_sheet_3: 1229708545
+      Beatrix_Dash_sheet_35: -601982761
+      Beatrix_Dash_sheet_28: 1069955981
+      Beatrix_Dash_sheet_24: 1574558376
+      Beatrix_Dash_sheet_29: -361067222
+      Beatrix_Dash_sheet_50: -1704285648
+      Beatrix_Dash_sheet_41: -1794775817
+      Beatrix_Dash_sheet_22: -601441035
+      Beatrix_Dash_sheet_56: 1361741489
+      Beatrix_Dash_sheet_45: 1356569762
+      Beatrix_Dash_sheet_11: -80382193
+      Beatrix_Dash_sheet_7: 1412722648
+      Beatrix_Dash_sheet_96: -830652980
+      Beatrix_Dash_sheet_39: -587903583
+      Beatrix_Dash_sheet_5: 248325313
+      Beatrix_Dash_sheet_15: 278872895
+      Beatrix_Dash_sheet_26: -1518557059
+      Beatrix_Dash_sheet_20: 304133768
+      Beatrix_Dash_sheet_58: -546373531
+      Beatrix_Dash_sheet_27: -467320953
+      Beatrix_Dash_sheet_55: 692419310
+      Beatrix_Dash_sheet_14: -625908197
+      Beatrix_Dash_sheet_34: -975315607
+      Beatrix_Dash_sheet_38: 1566689320
+      Beatrix_Dash_sheet_54: 456172271
+      Beatrix_Dash_sheet_49: 401833141
+      Beatrix_Dash_sheet_52: -743267731
+      Beatrix_Dash_sheet_53: 729047814
+      Beatrix_Dash_sheet_0: 1100469125
+      Beatrix_Dash_sheet_4: 903638095
+      Beatrix_Dash_sheet_19: 1982608069
+      Beatrix_Dash_sheet_48: 1281788807
+      Beatrix_Dash_sheet_51: -230711048
+      Beatrix_Dash_sheet_9: -1558210436
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
