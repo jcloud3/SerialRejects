@@ -6,6 +6,7 @@ public class PlayerBehavior : MonoBehaviour
 {
 
     [SerializeField] HealthBarAdjust _healthBar;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -19,12 +20,12 @@ public class PlayerBehavior : MonoBehaviour
     }
     //call this to damage player
     private void PlayerTakeDamage(int damage){
-        GameManager.gameManager._playerHealth.DamageUnit(damage);
-        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+        //GameManager.gameManager._playerHealth.DamageUnit(damage);
+        //_healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
     }
     //call this to heal player
     private void PlayerHeal(int healAmount){
-        GameManager.gameManager._playerHealth.HealUnit(healAmount);
-        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+        //GameManager.gameManager._playerHealth.HealUnit(healAmount);
+        //_healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
     }
 }

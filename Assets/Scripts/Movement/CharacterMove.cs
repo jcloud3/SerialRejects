@@ -47,7 +47,8 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] HealthBarAdjust _healthBar;
     
     CharacterController input;
-    //Controls controls = new Controls();
+    private Player playerInfo;
+
     private Vector3 velocity = Vector3.zero;
     // Start is called before the first frame update
     void Awake()
@@ -56,6 +57,9 @@ public class CharacterMove : MonoBehaviour
         input = GetComponent<CharacterController>();
         //m_animator = Child.GetComponent<Animator>();
         charRB.gravityScale = 0;
+        playerInfo = GetComponent<Player>();
+        
+
     }
     public void OnHeal(InputAction.CallbackContext context){
         
@@ -109,13 +113,13 @@ public class CharacterMove : MonoBehaviour
     }
 
     private void PlayerTakeDamage(int damage){
-        GameManager.gameManager._playerHealth.DamageUnit(damage);
-        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+        playerInfo.DamageUnit(damage);
+       
     }
     //call this to heal player
     private void PlayerHeal(int healAmount){
-        GameManager.gameManager._playerHealth.HealUnit(healAmount);
-        _healthBar.SetHealth(GameManager.gameManager._playerHealth.Health);
+        playerInfo.HealUnit(healAmount);
+        
     }
 private void Update()
 
