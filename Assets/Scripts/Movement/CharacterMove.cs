@@ -39,7 +39,10 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private Animator m_animator;
     private GameObject model;
     private bool jump;
-
+    private int dashCount = 0;
+    private int maxDash = 1;
+    private int dashFrames = 0;
+    private int maxDashFrames = 55;
     private bool attack;
     private bool facingRight = true;
     private Vector2 movementInput = Vector2.zero;
@@ -68,12 +71,22 @@ public class CharacterMove : MonoBehaviour
         Debug.Log("heal");
         
     }
+
     public void OnDamage(InputAction.CallbackContext context){
         
         //jump = context.ReadValue<float>()>0;
         PlayerTakeDamage(10);
         Debug.Log("damage");
         
+    }
+
+    public void OnDash(InputAction.CallbackContext context){
+        if (dashCount<maxDash){
+            dashCount++;
+            m_animator.SetBool("Dash",true);
+        }
+        
+
     }
     public void OnMove(InputAction.CallbackContext context){
         movementInput = context.ReadValue<Vector2>();
@@ -161,6 +174,19 @@ private void Update()
                     // on base
                     charRB.gravityScale = 0;
                     charRB.velocity = _velocity;
+                    if (dashCount>0){
+                        //need to lockout any changes in velocity until dash ends
+                        dashFrames++;
+                        if (dashFrames<maxDashFrames){
+                            charRB.velocity = new Vector2(charRB.velocity.x * 1.5f,charRB.velocity.y * 1.5f);
+                            baseRB.velocity = charRB.velocity;
+                        }
+                        else{
+                            dashFrames = 0;
+                            dashCount = 0;
+                            m_animator.SetBool("Dash",false);
+                        }
+                    }
                 }
                 else
                 {
