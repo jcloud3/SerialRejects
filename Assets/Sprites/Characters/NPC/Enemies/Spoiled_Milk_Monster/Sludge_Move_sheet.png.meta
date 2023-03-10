@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,339 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91affec6116647c792bb360fbd56108
+      internalID: -1074132316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d721738af8ef1447593548d3ad57af2d
+      internalID: 1417448981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987427262688f4ac88d0d4394c7d8560
+      internalID: 1415232131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00fccb2474964250bec36a906005b95
+      internalID: 947969887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646d4cf0aaed14f80a82dae224e8f606
+      internalID: 500704422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97d9d49a4dd884526841dc6a6d54c215
+      internalID: 1418519593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3752894be7246458267cd49bc784fc
+      internalID: -347278273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b3d9c5e39a254ddb9229d64cf029d00
+      internalID: -1086268677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 523a767c88b6340a0a243048d66f5029
+      internalID: -783336548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2448
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ce7aa52a1344dc981fc4cf741ac2b9
+      internalID: 361109280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa577fb70ee41cca5c1efc42b2e8b2
+      internalID: 1898009522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 2992
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6dc0b0f6977a4b4082ecd391495ae20
+      internalID: 572956097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3264
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b247eefc76734fd4b05895643aa0ef0
+      internalID: -892452932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Move_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 3536
+        y: 0
+        width: 272
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eea1633dd0c54ead91fcaca0737aa7d
+      internalID: -1934983955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +419,21 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sludge_Move_sheet_1: 1417448981
+      Sludge_Move_sheet_3: 947969887
+      Sludge_Move_sheet_6: -347278273
+      Sludge_Move_sheet_2: 1415232131
+      Sludge_Move_sheet_8: -783336548
+      Sludge_Move_sheet_4: 500704422
+      Sludge_Move_sheet_11: 572956097
+      Sludge_Move_sheet_13: -1934983955
+      Sludge_Move_sheet_10: 1898009522
+      Sludge_Move_sheet_0: -1074132316
+      Sludge_Move_sheet_9: 361109280
+      Sludge_Move_sheet_5: 1418519593
+      Sludge_Move_sheet_7: -1086268677
+      Sludge_Move_sheet_12: -892452932
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

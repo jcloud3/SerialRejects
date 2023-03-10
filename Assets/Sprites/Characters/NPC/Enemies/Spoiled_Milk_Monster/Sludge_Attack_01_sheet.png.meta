@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,276 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72403c2b8b8a14978ab298136cac6a90
+      internalID: 1198563525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577308300730c4ef2bcebef7f97d0333
+      internalID: 36831788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee1f025f46004a41a9018c966bd9770
+      internalID: -949356193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 985790dc2474847bb8e2a8fd0f4677e5
+      internalID: -409824720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a0597e7db8a4e49afc698d1eef8307
+      internalID: 672245924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212750796f58c4ab8a5ce6fd3e7e821a
+      internalID: -760724969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57a18eca8ea3048d883a704d958b1d21
+      internalID: -2046286160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbee488ae0814c569215f09e2d4c870
+      internalID: 276697621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9037bb056174393ba7926c79278c59
+      internalID: 1563718493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30078a11d3bed4c85af134a2fbf30061
+      internalID: 859128116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Attack_01_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 0
+        width: 223
+        height: 247
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b84bf486ffd794e9ea8cc88adbcc1530
+      internalID: 1861552443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +356,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sludge_Attack_01_sheet_7: 276697621
+      Sludge_Attack_01_sheet_6: -2046286160
+      Sludge_Attack_01_sheet_5: -760724969
+      Sludge_Attack_01_sheet_0: 1198563525
+      Sludge_Attack_01_sheet_1: 36831788
+      Sludge_Attack_01_sheet_2: -949356193
+      Sludge_Attack_01_sheet_9: 859128116
+      Sludge_Attack_01_sheet_3: -409824720
+      Sludge_Attack_01_sheet_4: 672245924
+      Sludge_Attack_01_sheet_10: 1861552443
+      Sludge_Attack_01_sheet_8: 1563718493
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

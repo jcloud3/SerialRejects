@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,213 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60422409d7549428e946d34bd29e5f73
+      internalID: 1542107736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf5e2031a38f456196b94488eb3a199
+      internalID: 1383078649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bedffcbe97ae4bd7ba4cfae95956d80
+      internalID: 1187382275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9dd670e2404149edadf99595774fe3c
+      internalID: -718688784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5da07b25b87da43b5ac1d8c19b2403c9
+      internalID: 699901554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c3f854fe22414cc59b92c70bb20473b
+      internalID: 388935306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b0366ae2d3e455baead642eb8dcb0a
+      internalID: 929446864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Idle_to_Move_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 0
+        width: 189
+        height: 241
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5ccbd33938794e8dbf0f94133a903fc
+      internalID: -1778760871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +293,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sludge_Idle_to_Move_sheet_6: 929446864
+      Sludge_Idle_to_Move_sheet_4: 699901554
+      Sludge_Idle_to_Move_sheet_1: 1383078649
+      Sludge_Idle_to_Move_sheet_2: 1187382275
+      Sludge_Idle_to_Move_sheet_0: 1542107736
+      Sludge_Idle_to_Move_sheet_5: 388935306
+      Sludge_Idle_to_Move_sheet_7: -1778760871
+      Sludge_Idle_to_Move_sheet_3: -718688784
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
