@@ -484,6 +484,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 366a8241da3b74765bd336baecc055f8, type: 3}
+--- !u!1 &692535874 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 242600304724471548, guid: 366a8241da3b74765bd336baecc055f8, type: 3}
+  m_PrefabInstance: {fileID: 642044413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &692535880
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 692535874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.058954075, y: 1.2049997}
+  m_Size: {x: 1.1320194, y: 2.41}
+  m_Direction: 0
 --- !u!114 &742039847 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6745818847579545641, guid: 803da923eb23a49a4afeb001455e2b6c, type: 3}
@@ -1190,7 +1211,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 14.946406
+  orthographic size: 16.560131
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1214,7 +1235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 937776868}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.62, y: 6.74, z: -10}
+  m_LocalPosition: {x: 15.9, y: 8.6, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1664,7 +1685,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1495105664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.03, y: -3.46, z: 0}
+  m_LocalPosition: {x: 15.9, y: 8.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2203,3 +2224,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: 10c43caf8c2354696ad0e3c04f9ee1a4, type: 2}
+--- !u!1 &1836103230 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6745818847379748089, guid: 803da923eb23a49a4afeb001455e2b6c, type: 3}
+  m_PrefabInstance: {fileID: 1784420053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!70 &1836103236
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1836103230}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.12633024, y: 1.3699996}
+  m_Size: {x: 0.9988261, y: 2.74}
+  m_Direction: 0
