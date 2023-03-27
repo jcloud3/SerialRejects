@@ -19,7 +19,7 @@ public class Avoid : State
     }
     public override void Enter()
     {
-        Debug.Log("Avoid");
+        
         currentPlayer = 0;
         anim.SetTrigger("isWalking");
         base.Enter();

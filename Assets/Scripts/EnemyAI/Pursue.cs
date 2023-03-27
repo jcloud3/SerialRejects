@@ -18,7 +18,7 @@ public class Pursue : State
     }
     public override void Enter()
     {
-        Debug.Log("Pursue");
+        
         currentPlayer = 0;
         anim.SetTrigger("isWalking");
         base.Enter();
