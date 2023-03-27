@@ -77,6 +77,8 @@ private void Update()
     }
     public void Move()
     {
+        if(m_animator.GetCurrentAnimatorStateInfo(0).IsName("Spoil_Walk")){
+
         
         if (canMove){
             FindTarget();
@@ -125,6 +127,7 @@ private void Update()
             {
                 flip();
             }
+        }
         }
         
     }
@@ -182,6 +185,9 @@ private void Update()
             {
                 flip();
             }
+        }
+        else{
+            charRB.velocity = new Vector2(0, 0);
         }
         
     }

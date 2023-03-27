@@ -7,7 +7,7 @@ public class Pursue : State
     //can use this to track which player is being pursued
    int currentPlayer = -1;
    float randomAvoidFloat = .001f;
-   float minAvoidDistance = 1.5f;
+   float minAvoidDistance = 3.5f;
    float randomAttackChance = .7f;
    public Pursue(GameObject _npc, Animator _anim, Transform _player):base(_npc,_anim,_player)
     {

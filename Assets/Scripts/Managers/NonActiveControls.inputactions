@@ -1,0 +1,46 @@
+{
+    "name": "NonActiveControls",
+    "maps": [
+        {
+            "name": "Menu Controls",
+            "id": "17d9b896-8d9b-427f-90d8-fbc6ae0e097f",
+            "actions": [
+                {
+                    "name": "Spawn Player",
+                    "type": "Button",
+                    "id": "6eceb079-1221-4ff7-8d12-04fc7ee2dfa7",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "bcaefb86-44e2-4aa9-aa80-e2cb363eddd6",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Menu Controls",
+                    "action": "Spawn Player",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Menu Controls",
+            "bindingGroup": "Menu Controls",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}

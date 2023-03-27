@@ -75,6 +75,9 @@ public class CharacterMove : MonoBehaviour
         //jump = context.ReadValue<float>()>0;
         PlayerTakeDamage(10);
         Debug.Log("damage");
+        if (playerInfo.GetHealth()<=0){
+            m_animator.SetBool("Death",true);
+        }
         
     }
 
@@ -149,6 +152,7 @@ private void Update()
 
     private void FixedUpdate()
     {
+        
         Move();
     }
     public void Move()
