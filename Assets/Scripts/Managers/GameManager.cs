@@ -7,19 +7,11 @@ public class GameManager : MonoBehaviour
 {
 
     public static GameManager gameManager{get; private set; }
-    //probably need to convert all these into arrays to handle multiple players.
+    
     public GameObject trix;
-    //public UnitHealth _player2Health = new UnitHealth(100,100);
-    //public ScoringSystem _playerScore = new ScoringSystem(0);
-    //this can keep track of the number of players in the game and assign new players a number for purposes of tracking stats
+     
     public int numPlayers = 0;
-    public void OnSpawn(InputAction.CallbackContext context){
-        
-        //jump = context.ReadValue<float>()>0;
-        SpawnPlayer("trix");
-        Debug.Log("Spawn");
-        
-    }
+    
 
     // Start is called before the first frame update
     void Awake()
@@ -33,7 +25,8 @@ public class GameManager : MonoBehaviour
         }
        //players = GameObject.FindGameObjectsWithTag("Player");
        trix = GameObject.Find("Trix");
-       trix.SetActive(false);
+       //trix.SetActive(false);
+       Debug.Log("Spawn");
     }
     
     public int GetNumPlayers(){

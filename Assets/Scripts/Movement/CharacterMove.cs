@@ -47,21 +47,32 @@ public class CharacterMove : MonoBehaviour
 
     [SerializeField] HealthBarAdjust _healthBar;
     
-    CharacterController input;
+    
     private Player playerInfo;
 
     private Vector3 velocity = Vector3.zero;
+
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Awake()
     {
         //model = transform.find("Character Model");
-        input = GetComponent<CharacterController>();
+        
         //m_animator = Child.GetComponent<Animator>();
         charRB.gravityScale = 0;
         playerInfo = GetComponent<Player>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         
 
     }
+    public void OnSpawn(InputAction.CallbackContext context){
+        
+        
+        gameManager.SpawnPlayer("trix");
+        Debug.Log("Spawn");
+        
+    }
+    
     public void OnHeal(InputAction.CallbackContext context){
         
         //jump = context.ReadValue<float>()>0;
@@ -140,14 +151,6 @@ private void Update()
     {
         
         
-        /*controls = input.GetInput();
-        
-            DetectWall();
-            
-        if (controls.JumpState && currentJumps < possibleJumps)
-        {
-            jump = true;
-        }*/
     }
 
     private void FixedUpdate()
