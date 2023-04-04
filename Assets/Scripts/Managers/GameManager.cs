@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
         if (PlayerName == "trix"){
             trix.SetActive(true);
             trix.GetComponent<Player>().Spawn();
+            trix.GetComponentInChildren<SpriteRenderer>().enabled = true;
         }
     }
 

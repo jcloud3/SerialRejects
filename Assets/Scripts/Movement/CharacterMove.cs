@@ -69,6 +69,7 @@ public class CharacterMove : MonoBehaviour
         
         
         gameManager.SpawnPlayer("trix");
+        m_animator.SetTrigger("Spawn");
         Debug.Log("Spawn");
         
     }
