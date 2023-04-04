@@ -40,7 +40,13 @@ public class GameManager : MonoBehaviour
             trix.SetActive(true);
             trix.GetComponent<Player>().Spawn();
         }
+    }
 
+    public void KillPlayer(string PlayerName){
+        if (PlayerName == "trix"){
+            trix.SetActive(false);
+            //trix.GetComponent<Player>().Spawn();
+        }
     }
 
    
