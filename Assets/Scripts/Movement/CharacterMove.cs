@@ -26,16 +26,14 @@ public class CharacterMove : MonoBehaviour
     [SerializeField] private float jumpVal = 10f;
     [SerializeField] private int possibleJumps = 1;
     [SerializeField] private int currentJumps = 0;
-    [SerializeField] private bool onBase = false;
-    [SerializeField] private Transform jumpDetector;
+    
     [SerializeField] private float detectionDistance;
     [SerializeField] private LayerMask detectLayer;
     [SerializeField] private Transform rightDetector;
     [SerializeField] private Transform leftDetector;
     [SerializeField] private Transform ceilingDetector;
     [SerializeField] private float wallDetectionDistance;
-    [SerializeField] private float jumpingGravityScale;
-    [SerializeField] private float fallingGravityScale;
+    
     [SerializeField] private Animator m_animator;
     private GameObject model;
     private bool jump;
@@ -49,21 +47,32 @@ public class CharacterMove : MonoBehaviour
 
     [SerializeField] HealthBarAdjust _healthBar;
     
-    CharacterController input;
+    
     private Player playerInfo;
 
     private Vector3 velocity = Vector3.zero;
+
+    private GameManager gameManager;
     // Start is called before the first frame update
     void Awake()
     {
         //model = transform.find("Character Model");
-        input = GetComponent<CharacterController>();
+        
         //m_animator = Child.GetComponent<Animator>();
         charRB.gravityScale = 0;
         playerInfo = GetComponent<Player>();
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         
 
     }
+    public void OnSpawn(InputAction.CallbackContext context){
+        
+        
+        gameManager.SpawnPlayer("trix");
+        Debug.Log("Spawn");
+        
+    }
+    
     public void OnHeal(InputAction.CallbackContext context){
         
         //jump = context.ReadValue<float>()>0;
@@ -77,6 +86,9 @@ public class CharacterMove : MonoBehaviour
         //jump = context.ReadValue<float>()>0;
         PlayerTakeDamage(10);
         Debug.Log("damage");
+        if (playerInfo.GetHealth()<=0){
+            m_animator.SetBool("Death",true);
+        }
         
     }
 
@@ -139,26 +151,16 @@ private void Update()
     {
         
         
-        /*controls = input.GetInput();
-        
-            DetectWall();
-            
-        if (controls.JumpState && currentJumps < possibleJumps)
-        {
-            jump = true;
-        }*/
     }
 
     private void FixedUpdate()
     {
+        
         Move();
     }
     public void Move()
     {
-        if (!onBase && doesCharacterJump)
-        {
-            detectBase();
-        }
+        
         if (canMove){
             DetectWall();
             Vector3 targetVelocity = new Vector2(movementInput.x * hSpeed, movementInput.y * vSpeed);
@@ -169,8 +171,7 @@ private void Update()
             //check if jumping
             if (doesCharacterJump)
             {
-                if (onBase)
-                {
+                
                     // on base
                     charRB.gravityScale = 0;
                     charRB.velocity = _velocity;
@@ -187,31 +188,22 @@ private void Update()
                             m_animator.SetBool("Dash",false);
                         }
                     }
-                }
-                else
-                {
-                    // in air
-                    if (charRB.velocity.y < 0)
-                    {
-                        charRB.gravityScale = fallingGravityScale;
-                    }
-
-                    charRB.velocity = new Vector2(_velocity.x, charRB.velocity.y);
-                }
+                
+                
 
                 if (jump)
                 {
-                    //charRB.useGravity = true;
+                    
                     charRB.AddForce(Vector2.up * jumpVal, ForceMode2D.Impulse);
-                    charRB.gravityScale = jumpingGravityScale;
+                    
                     jump = false;
                     currentJumps++;
-                    onBase = false;
+                    //onBase = false;
                 }
             }
-            if(onBase){
+            
                 m_animator.SetFloat("walking",Mathf.Abs(_velocity.x)+Mathf.Abs(_velocity.y));
-            }
+            
             // --- 
 
             // rotate if we're facing the wrong way
@@ -234,24 +226,9 @@ private void Update()
         facingRight = !facingRight;
         transform.Rotate(0,180,0);
     }
-    private void detectBase()
-    {
+    
 
-        RaycastHit2D hit = Physics2D.Raycast(jumpDetector.position, -Vector2.up, detectionDistance, detectLayer);
-        if(hit.collider != null)
-        {
-            onBase = true;
-            currentJumps = 0;
-        }
-    }
-
-    private void OnDrawGizmos()
-    {
-        if (doesCharacterJump)
-        {
-            Gizmos.DrawRay(jumpDetector.transform.position, -Vector3.up * detectionDistance);
-        }
-    }
+    
     //finish this
     private void DetectWall(){
         RaycastHit2D hit;

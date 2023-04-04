@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -76,9 +76,423 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1134
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1664a93aa3a6d4efd94619eb7338f143
+      internalID: -1261408823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1134
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c5aa3593c5dd4ebcb8c541c4145498d
+      internalID: 386238917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1134
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2a35249b99e47edb458058c937bb3b
+      internalID: -1835605535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1134
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e5a06fc9a1341b5b5ee4f09ac93824
+      internalID: -1115596468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 1134
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c173aae09a7d748beb9dba5e15b0fd9e
+      internalID: 1174878178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 756
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c09ed9ef6d974283baaa8ae5d60ef76
+      internalID: -1209126587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 756
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6069f15f11e8d45648c284dd0fc4c707
+      internalID: 2058997147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 756
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff1428a96f9a743bb8dfebe4df88c824
+      internalID: -149438529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 756
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e027e5b6bd9b94a07bb13ece4238d508
+      internalID: -1910898302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 756
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45525c2eb9d464e0fa4b0dce32bad36a
+      internalID: 1614656623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab77bd1243ba24569b9e031eb6df1626
+      internalID: -1280742624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 378
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1676c81f1727642afbe773453f2f88ce
+      internalID: 1550717380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 378
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0976eb6d455a44139351d110fb20216
+      internalID: -1308499380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 378
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 132af69ad15f548e58d8529382da5e68
+      internalID: -1918526455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 378
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a294fce08c7743a3ab2544131c7be59
+      internalID: -1196808536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c195a662c444da590fe0c6adb663ab
+      internalID: 1688288140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20b0744e83e84529919d77529e4f264
+      internalID: 677958899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Beatrix_Death_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 336
+        height: 378
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb99060e161d54d1db852ea671bdeb88
+      internalID: 1242233849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -89,7 +503,25 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Beatrix_Death_sheet_15: 1688288140
+      Beatrix_Death_sheet_4: 1174878178
+      Beatrix_Death_sheet_9: 1614656623
+      Beatrix_Death_sheet_7: -149438529
+      Beatrix_Death_sheet_0: -1261408823
+      Beatrix_Death_sheet_6: 2058997147
+      Beatrix_Death_sheet_11: 1550717380
+      Beatrix_Death_sheet_17: 1242233849
+      Beatrix_Death_sheet_10: -1280742624
+      Beatrix_Death_sheet_1: 386238917
+      Beatrix_Death_sheet_3: -1115596468
+      Beatrix_Death_sheet_5: -1209126587
+      Beatrix_Death_sheet_14: -1196808536
+      Beatrix_Death_sheet_13: -1918526455
+      Beatrix_Death_sheet_16: 677958899
+      Beatrix_Death_sheet_2: -1835605535
+      Beatrix_Death_sheet_8: -1910898302
+      Beatrix_Death_sheet_12: -1308499380
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

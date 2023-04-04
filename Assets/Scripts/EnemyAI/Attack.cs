@@ -13,7 +13,7 @@ public class Attack : State
     }
     public override void Enter()
     {
-        Debug.Log("Attack");
+        
         anim.SetTrigger("isAttacking");
         isInAttackAnimation = true;
         base.Enter();

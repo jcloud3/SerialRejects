@@ -12,13 +12,25 @@ public class AI : MonoBehaviour
     {
         player = GameObject.FindGameObjectsWithTag("Player");
         anim = this.GetComponentInChildren(typeof(Animator)) as Animator;
-        currentState = new Idle(this.gameObject,anim,player[0].transform);
+        if(player.Length>0){
+            currentState = new Idle(this.gameObject,anim,player[0].transform);
+        }
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        currentState = currentState.Process();
+        if (player.Length==0){
+            player = GameObject.FindGameObjectsWithTag("Player");
+        }
+        if (player.Length>0 && currentState==null){
+            currentState = new Idle(this.gameObject,anim,player[0].transform);
+        }
+        if(currentState!=null){
+            currentState = currentState.Process();
+        }
+        
         
     }
 }

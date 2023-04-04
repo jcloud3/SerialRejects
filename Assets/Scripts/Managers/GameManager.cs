@@ -1,18 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
 
     public static GameManager gameManager{get; private set; }
-    //probably need to convert all these into arrays to handle multiple players.
-    public UnitHealth _playerHealth = new UnitHealth(100,100);
-    //public UnitHealth _player2Health = new UnitHealth(100,100);
-    //public ScoringSystem _playerScore = new ScoringSystem(0);
-    //this can keep track of the number of players in the game and assign new players a number for purposes of tracking stats
+    
+    public GameObject trix;
+     
     public int numPlayers = 0;
-
+    
 
     // Start is called before the first frame update
     void Awake()
@@ -24,12 +23,30 @@ public class GameManager : MonoBehaviour
         else{
             gameManager = this;
         }
+       //players = GameObject.FindGameObjectsWithTag("Player");
+       trix = GameObject.Find("Trix");
+       //trix.SetActive(false);
+       Debug.Log("Spawn");
     }
+    
     public int GetNumPlayers(){
         return numPlayers;
     }
     public void SetNumPlayers(int currentNumPlayers){
         numPlayers = currentNumPlayers;
+    }
+    public void SpawnPlayer(string PlayerName){
+        if (PlayerName == "trix"){
+            trix.SetActive(true);
+            trix.GetComponent<Player>().Spawn();
+        }
+    }
+
+    public void KillPlayer(string PlayerName){
+        if (PlayerName == "trix"){
+            trix.SetActive(false);
+            //trix.GetComponent<Player>().Spawn();
+        }
     }
 
    

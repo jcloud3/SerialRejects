@@ -19,7 +19,7 @@ public class State
 
 
     public EnemyMove controls;
-    float attackDist = 4.0f;
+    float attackDist = 6.0f;
     float attackAngle = 12.0f;
 
     public State(GameObject _npc, Animator _anim, Transform _player){
