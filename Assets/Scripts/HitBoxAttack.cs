@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TestScript : MonoBehaviour
+public class HitBoxAttack : MonoBehaviour
 {
     // Start is called before the first frame update
+   
     private void OnTriggerEnter2d(Collider2D other){
         Debug.Log("hit something");
         
@@ -19,4 +20,6 @@ public class TestScript : MonoBehaviour
             Debug.Log("hit player");
         }
     }
+
 }
+
